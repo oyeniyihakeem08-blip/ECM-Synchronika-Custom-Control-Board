@@ -200,6 +200,66 @@
 				(justify left top)
 			)
 		)
+		(pin "GPIO_16" input
+			(at 57.15 92.71 0)
+			(uuid "bc37216d-7cf1-4153-8423-d44f592f5736")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_17" input
+			(at 57.15 96.52 0)
+			(uuid "566ccb24-1f1e-42f3-a86a-d9f686fe8341")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_18" input
+			(at 57.15 100.33 0)
+			(uuid "0c41c5ad-249b-45b1-8835-d81fdac37621")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_26" input
+			(at 57.15 104.14 0)
+			(uuid "1ca27ef7-85ac-4db6-81f6-4b649a21ab86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_27" input
+			(at 57.15 106.68 0)
+			(uuid "05a5fd23-5cb8-417b-ade8-962661e9c580")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_28" input
+			(at 57.15 88.9 0)
+			(uuid "e5c5b51f-bbf3-4c0e-9f7b-4a7c73943591")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34"
