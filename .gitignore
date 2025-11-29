@@ -1,0 +1,32 @@
+_autosave-*
+# ==========================
+# KiCad temporary and backup files
+# ==========================
+*.bak
+*.bck
+*.tmp
+*.log
+*.lock
+*.kicad_pcb-bak
+*.kicad_sch-bak
+    # ignore autosave schematics
+*~                # ignore files ending with ~
+~*                # ignore files starting with ~
+# ignore auto-saved folders
+#*# 
+
+# ==========================
+# KiCad generated outputs
+# ==========================
+*.net
+*.dsn
+*.ses
+*.xml
+*.csv
+*.kicad_prl
+fp-info-cache/
+
+# ==========================
+# Ignore KiCad temporary folders
+# ==========================
+**/*-backups/*.zip
