@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "6.3mm spade")(type "KiCad")(uri "${KIPRJMOD}/FOOTPRINT/6.3mm spade.pretty")(options "")(descr ""))
+  (lib (name "HLK_5M05")(type "KiCad")(uri "${KIPRJMOD}/FOOTPRINT/HLK-5M05. pretty")(options "")(descr ""))
+)
