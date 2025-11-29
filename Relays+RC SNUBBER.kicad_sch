@@ -2516,30 +2516,6 @@
 		)
 		(uuid "1b84f3ff-d56d-40bb-a56c-c88a3526589e")
 	)
-	(label "+5V"
-		(at 71.12 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "256ac06a-7d37-4728-840a-b87627be0a09")
-	)
-	(label "+5V"
-		(at 204.47 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f24643e-dbea-49d6-8a17-5b1d4007f5d8")
-	)
 	(label "L_FUSED"
 		(at 22.86 147.32 0)
 		(effects
@@ -2612,18 +2588,6 @@
 		)
 		(uuid "71833132-d81e-4e9e-9895-adbbba8c7b04")
 	)
-	(label "+5V"
-		(at 71.12 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fc85443-f7c0-4335-8fba-dfc90b69b452")
-	)
 	(label "L_FUSED"
 		(at 130.81 68.58 0)
 		(effects
@@ -2659,18 +2623,6 @@
 			(justify left bottom)
 		)
 		(uuid "a71f2dc2-ccc9-4348-9b3a-24be7f3ed42d")
-	)
-	(label "+5V"
-		(at 175.26 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "dfa910b4-b70a-4f27-bd34-d03238666e0b")
 	)
 	(label "L_FUSED"
 		(at 166.37 64.77 0)

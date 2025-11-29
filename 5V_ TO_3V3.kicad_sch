@@ -1036,16 +1036,6 @@
 		)
 		(uuid "f4c9f32d-4888-4438-9aee-0558bde5e4ff")
 	)
-	(label "+5v"
-		(at 55.88 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18c231c6-cf40-43cc-ab37-5cef80a00d3f")
-	)
 	(global_label "+5v"
 		(shape output)
 		(at 44.45 92.71 180)

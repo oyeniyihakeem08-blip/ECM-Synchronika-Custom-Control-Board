@@ -1586,16 +1586,6 @@
 		)
 		(uuid "0c9019f4-114d-4380-849c-0108cf64cd8d")
 	)
-	(label "+5v"
-		(at 158.75 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3abf7b6a-457a-4d8b-8772-13e10cb48830")
-	)
 	(label "NEUTRAL"
 		(at 60.96 45.72 180)
 		(effects
