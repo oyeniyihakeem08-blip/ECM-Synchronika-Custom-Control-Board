@@ -7,13 +7,73 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 82.55 25.4) (xy 96.52 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3663f07d-9c08-4fd3-8240-39530fc9bcef")
+	)
+	(wire
+		(pts
+			(xy 82.55 35.56) (xy 96.52 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea6751d-a035-4ce6-9849-852d14fa22b6")
+	)
+	(wire
+		(pts
+			(xy 125.73 24.13) (xy 135.89 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31ca007-f9f4-4f45-a4e2-6f8f172ced70")
+	)
+	(wire
+		(pts
+			(xy 82.55 30.48) (xy 96.52 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca438b50-b47d-4b75-bf4c-d8f51ecab66b")
+	)
+	(wire
+		(pts
+			(xy 82.55 20.32) (xy 96.52 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8db0f0e-2efe-4576-b084-c717173f9516")
+	)
+	(wire
+		(pts
 			(xy 40.64 33.02) (xy 53.34 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4fa5dfd-5f55-446d-8302-2aa054c599ac")
+		(uuid "ea512453-23f6-4636-873b-654c0f6f0718")
+	)
+	(wire
+		(pts
+			(xy 125.73 19.05) (xy 135.89 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9d2f16-8346-40b5-83eb-704f3446c551")
 	)
 	(sheet
 		(at 53.34 17.145)
@@ -49,7 +109,7 @@
 			)
 		)
 		(pin "GPIO_10" output
-			(at 82.55 20.955 0)
+			(at 82.55 20.32 0)
 			(uuid "b3ffb4ab-06af-42bd-ae5b-9891acb14e4e")
 			(effects
 				(font
@@ -59,7 +119,7 @@
 			)
 		)
 		(pin "GPIO_11" output
-			(at 82.55 26.035 0)
+			(at 82.55 25.4 0)
 			(uuid "30977877-1898-49d5-93a6-3dc412c9c14a")
 			(effects
 				(font
@@ -69,7 +129,7 @@
 			)
 		)
 		(pin "GPIO_20" output
-			(at 82.55 31.115 0)
+			(at 82.55 30.48 0)
 			(uuid "93c871b4-53c8-4d30-a4cc-b0224464cb3a")
 			(effects
 				(font
@@ -149,8 +209,8 @@
 		)
 	)
 	(sheet
-		(at 234.95 16.51)
-		(size 27.94 20.32)
+		(at 135.89 16.51)
+		(size 27.94 19.685)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -165,7 +225,7 @@
 		)
 		(uuid "66e61237-0dee-4721-9e95-e23431ee422c")
 		(property "Sheetname" "SSR"
-			(at 234.95 15.7984 0)
+			(at 135.89 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,12 +234,32 @@
 			)
 		)
 		(property "Sheetfile" "SSR.kicad_sch"
-			(at 234.95 37.4146 0)
+			(at 135.89 36.7796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GPIO_13" input
+			(at 135.89 19.05 180)
+			(uuid "af0f4a95-c620-4159-af8c-6b158777ac51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_14" input
+			(at 135.89 24.13 180)
+			(uuid "317ae2e0-473b-47c1-9b81-b33dec2d431d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -191,7 +271,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 14.605)
+		(at 172.72 15.875)
 		(size 27.94 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -207,7 +287,7 @@
 		)
 		(uuid "7b9a90b3-d0b5-46b5-a44b-f4a38eaf058d")
 		(property "Sheetname" "5V_ TO_3V3"
-			(at 139.7 13.8934 0)
+			(at 172.72 15.1634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +296,7 @@
 			)
 		)
 		(property "Sheetfile" "5V_ TO_3V3.kicad_sch"
-			(at 139.7 35.5096 0)
+			(at 172.72 36.7796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,8 +375,8 @@
 		)
 	)
 	(sheet
-		(at 94.615 16.51)
-		(size 29.21 20.32)
+		(at 96.52 16.51)
+		(size 29.21 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -311,7 +391,7 @@
 		)
 		(uuid "fa757c9b-92b6-48f7-b60b-b85d2ef688f7")
 		(property "Sheetname" "MCU"
-			(at 94.615 15.7984 0)
+			(at 96.52 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,12 +400,72 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 94.615 37.4146 0)
+			(at 96.52 38.0496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GPIO_10" output
+			(at 96.52 20.32 180)
+			(uuid "9261a91e-3bbc-4af9-b095-082a718f6a82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_11" output
+			(at 96.52 25.4 180)
+			(uuid "737a207f-c096-4e1c-a321-ea17e0de5620")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_12" output
+			(at 96.52 35.56 180)
+			(uuid "a00bb796-954a-4437-b4bf-6f5ce4d761bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_20" output
+			(at 96.52 30.48 180)
+			(uuid "b84a4168-c26e-4c99-b1ff-81abb90852af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_13" input
+			(at 125.73 19.05 0)
+			(uuid "4f2d3054-d14f-4cd0-b229-03c2e7f64d4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_14" input
+			(at 125.73 24.13 0)
+			(uuid "10d4c743-a5d5-4c11-9dd3-43984342c6bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -1895,6 +1895,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 106.68) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e75d260-7c40-4196-9ab2-cb227868b5de")
+	)
+	(wire
+		(pts
 			(xy 52.07 81.28) (xy 52.07 87.63)
 		)
 		(stroke
@@ -2012,6 +2022,16 @@
 			(type default)
 		)
 		(uuid "38394bd8-a0ce-479c-981c-24b2f2d82a68")
+	)
+	(wire
+		(pts
+			(xy 114.3 109.22) (xy 120.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3df93b-6c49-48d7-a34f-c0b58953327a")
 	)
 	(wire
 		(pts
@@ -2249,6 +2269,30 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 148.59 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ebb75c87-7795-441b-b9a2-24239c2f59ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 34.9412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "GPIO_20"
 		(shape output)
 		(at 173.99 86.36 0)
@@ -2275,6 +2319,17 @@
 		)
 		(uuid "6d20c6c1-c07b-4d10-896b-d864251f2184")
 	)
+	(hierarchical_label "GPIO_13"
+		(shape input)
+		(at 114.3 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94b8b95a-47f0-4aa1-b0fb-675ea17970e0")
+	)
 	(hierarchical_label "GPIO_11"
 		(shape output)
 		(at 114.3 101.6 180)
@@ -2287,6 +2342,17 @@
 			(justify right)
 		)
 		(uuid "b47d504f-f911-4356-aab9-bbb9c44217af")
+	)
+	(hierarchical_label "GPIO_14"
+		(shape input)
+		(at 114.3 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b555ba39-a37a-43b5-957a-fdcbc664bebe")
 	)
 	(hierarchical_label "GPIO_10"
 		(shape output)
@@ -2377,7 +2443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4953221e-77c0-40e3-968d-f8258f61250f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 143.51 144.78 0)
 			(effects
 				(font
@@ -2427,7 +2493,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/fa757c9b-92b6-48f7-b60b-b85d2ef688f7"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2443,7 +2509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5470c846-354b-4eed-8bd1-b48ebbd6bd3c")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 161.29 34.29 90)
 			(effects
 				(font
@@ -2495,7 +2561,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/fa757c9b-92b6-48f7-b60b-b85d2ef688f7"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2511,7 +2577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c4a263a-e942-4c94-bad7-3c582cda57c8")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2561,7 +2627,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/fa757c9b-92b6-48f7-b60b-b85d2ef688f7"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2761,7 +2827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e5ccaf-fa7d-4374-8523-682e87a93b11")
-		(property "Reference" "R1"
+		(property "Reference" "R15"
 			(at 54.61 76.1999 0)
 			(effects
 				(font
@@ -2815,7 +2881,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/fa757c9b-92b6-48f7-b60b-b85d2ef688f7"
-					(reference "R1")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2831,7 +2897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c266752b-647c-4b76-a98e-e3c8f7a01cd8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 167.64 50.8 0)
 			(effects
 				(font
@@ -2881,7 +2947,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/fa757c9b-92b6-48f7-b60b-b85d2ef688f7"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2957,76 +3023,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 116.84 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cab60ba0-2101-4088-af65-f9319fc68369")
-		(property "Reference" "C10"
-			(at 120.65 17.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 120.65 20.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 117.8052 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 116.84 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38de64cd-e2ba-42f8-9905-7317e99a7ec2")
-		)
-		(pin "2"
-			(uuid "2079214c-fbec-4dd3-ac1d-2cc6439de762")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/fa757c9b-92b6-48f7-b60b-b85d2ef688f7"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 123.19 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3035,7 +3031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee68e21d-3269-4d0c-babd-57d4267e6144")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 123.19 31.75 90)
 			(effects
 				(font
@@ -3087,7 +3083,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/fa757c9b-92b6-48f7-b60b-b85d2ef688f7"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)

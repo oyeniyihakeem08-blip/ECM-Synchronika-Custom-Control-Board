@@ -1340,10 +1340,1071 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 132.08 109.22)
+		(end 225.425 170.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 188a7752-2eaa-40d7-9a2f-9b2d09527ee3)
+	)
+	(rectangle
+		(start 134.62 19.685)
+		(end 229.235 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 639011b9-32bd-491b-8d1c-a36440812fc2)
+	)
+	(rectangle
+		(start 22.86 110.49)
+		(end 116.205 188.595)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b06cdb7b-1c06-44bf-8c25-1e70a9356838)
+	)
+	(rectangle
+		(start 22.86 19.685)
+		(end 117.475 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dcfa8526-90e7-493a-b558-32a663eeb10a)
+	)
+	(text "BREW NTC INPUT AND ESD PROTECTION"
+		(exclude_from_sim no)
+		(at 71.628 28.702 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5ae8e42f-b1ca-427f-8ed1-e37e9194444b")
+	)
+	(text "MAX31855KASA+_THERMOCOUPLE_INPUT"
+		(exclude_from_sim no)
+		(at 64.516 115.316 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "78ed1516-2018-488a-833a-8dbf009c7846")
+	)
+	(text "STEAM NTC INPUT AND ESD PROTECTION"
+		(exclude_from_sim no)
+		(at 183.388 28.702 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a64de3cc-bcf0-4558-bacd-798af5ddce20")
+	)
+	(text "PRESSURE_TRANSDUCER"
+		(exclude_from_sim no)
+		(at 179.578 113.284 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e86b363c-c98b-4daa-ab1e-09d1d39c7135")
+	)
+	(junction
+		(at 185.42 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12484d7b-7d0d-43f1-b435-b91ec38e5794")
+	)
+	(junction
+		(at 88.9 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2552342b-5e9e-4f26-bd95-41bfefce91ab")
+	)
+	(junction
+		(at 200.66 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dfa04a8-0169-4bb8-851a-91f488e6e585")
+	)
+	(junction
+		(at 73.66 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b652dff-fbae-4ad8-9c9b-82458058d3d7")
+	)
+	(junction
+		(at 73.66 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6839766f-5ce5-4e8a-9833-52150d81be8a")
+	)
+	(junction
+		(at 182.88 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8564223e-4967-435e-b582-48934266162f")
+	)
+	(junction
+		(at 151.13 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e305f80-09c4-493c-b4fa-3707ef3ffe25")
+	)
+	(junction
+		(at 39.37 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a96d4e15-de7d-45fd-9762-5549bab5c2f0")
+	)
+	(junction
+		(at 53.34 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9ea07ef-9f19-42c0-bd66-45f0275ee382")
+	)
+	(junction
+		(at 185.42 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce486f63-13f9-4fd7-b8b6-821f482e9060")
+	)
+	(junction
+		(at 199.39 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3ff0ee2-a070-4a3d-b035-627a61d589cc")
+	)
+	(junction
+		(at 66.04 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df28f8c6-0d7c-45f0-827d-1f5d0ad7cc4c")
+	)
+	(wire
+		(pts
+			(xy 151.13 67.31) (xy 151.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ebd3e1-1b94-4832-8157-09a7040a5666")
+	)
+	(wire
+		(pts
+			(xy 39.37 67.31) (xy 58.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163f749b-909d-4b52-998f-41bdde5de7ac")
+	)
+	(wire
+		(pts
+			(xy 88.9 147.32) (xy 100.33 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa1094e-a72c-450a-a6e4-2e79fa9d7c0b")
+	)
+	(wire
+		(pts
+			(xy 142.24 130.81) (xy 182.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f94af7-3c94-46fb-9d8b-397fa0262d57")
+	)
+	(wire
+		(pts
+			(xy 88.9 154.94) (xy 100.33 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed79554-6792-4c01-800e-63c4ca630c1d")
+	)
+	(wire
+		(pts
+			(xy 182.88 148.59) (xy 182.88 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33463a09-b896-4a80-a992-e428b8f9890c")
+	)
+	(wire
+		(pts
+			(xy 142.24 133.35) (xy 147.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375ade08-4935-4cef-904c-1e4b129c13d2")
+	)
+	(wire
+		(pts
+			(xy 200.66 92.71) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a653dcd-f700-4163-8995-e17322595674")
+	)
+	(wire
+		(pts
+			(xy 53.34 154.94) (xy 68.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b48a064-4805-4bbf-85b3-46fc70d830a0")
+	)
+	(wire
+		(pts
+			(xy 88.9 67.31) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb8dd97-fa7a-41cf-8ed5-e9bcf9b17ad7")
+	)
+	(wire
+		(pts
+			(xy 78.74 176.53) (xy 66.04 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d421a2-6f64-4959-8403-de90bd6efaae")
+	)
+	(wire
+		(pts
+			(xy 142.24 146.05) (xy 162.56 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f88732-ba36-4a15-9042-b46c3aaa2017")
+	)
+	(wire
+		(pts
+			(xy 182.88 130.81) (xy 182.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b123a6a-b1d7-4b06-88fa-3a6cd8559420")
+	)
+	(wire
+		(pts
+			(xy 88.9 149.86) (xy 100.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ced8b5b-befd-48f0-a73f-978fbacaae13")
+	)
+	(wire
+		(pts
+			(xy 71.12 129.54) (xy 67.31 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1cff0b-854c-4eff-a7c2-17d633e09b38")
+	)
+	(wire
+		(pts
+			(xy 177.8 67.31) (xy 185.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef181d0-e6f5-4ab4-82d8-7e0b96f056f8")
+	)
+	(wire
+		(pts
+			(xy 43.18 153.67) (xy 43.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593629be-62bc-4bc1-b92a-fb673a976a00")
+	)
+	(wire
+		(pts
+			(xy 199.39 152.4) (xy 214.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a04100a-eabb-48a4-8887-4aa91184a00b")
+	)
+	(wire
+		(pts
+			(xy 199.39 152.4) (xy 199.39 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ddaa5b2-366e-49cf-b27c-b22bec06deee")
+	)
+	(wire
+		(pts
+			(xy 182.88 152.4) (xy 199.39 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6045daa0-d4f9-42df-a740-0d9d474eaebb")
+	)
+	(wire
+		(pts
+			(xy 39.37 67.31) (xy 39.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a45717-c850-4cbf-a98d-a84789f481cc")
+	)
+	(wire
+		(pts
+			(xy 43.18 149.86) (xy 68.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cf1839-29b8-4a89-94da-9876640c256e")
+	)
+	(wire
+		(pts
+			(xy 73.66 99.06) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c08db74-e153-4f30-896a-0bcc82b26596")
+	)
+	(wire
+		(pts
+			(xy 142.24 146.05) (xy 142.24 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e734d8-3eb0-4e9d-b12e-9c2477f60d80")
+	)
+	(wire
+		(pts
+			(xy 53.34 154.94) (xy 53.34 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f9ec00-f1d3-4026-804a-9b00ebc60428")
+	)
+	(wire
+		(pts
+			(xy 73.66 67.31) (xy 73.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1e0ea9-409c-4282-a0d1-da6cf8ef01ab")
+	)
+	(wire
+		(pts
+			(xy 43.18 151.13) (xy 43.18 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c31b1e5-78b9-47ed-a487-5080c29fee98")
+	)
+	(wire
+		(pts
+			(xy 67.31 129.54) (xy 67.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf07f3b-a521-45a4-8cbc-40e1039b4df1")
+	)
+	(wire
+		(pts
+			(xy 182.88 152.4) (xy 182.88 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d465ec0-261a-4336-82ce-2fd47e6a3fe5")
+	)
+	(wire
+		(pts
+			(xy 151.13 77.47) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddd558f-9235-4f9d-8474-4db392c89219")
+	)
+	(wire
+		(pts
+			(xy 53.34 176.53) (xy 53.34 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef59d2e-c0e9-4fc5-94ac-dbb4c1aab041")
+	)
+	(wire
+		(pts
+			(xy 78.74 129.54) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913463e3-618a-40b3-aa35-a79395f3fbe2")
+	)
+	(wire
+		(pts
+			(xy 39.37 63.5) (xy 39.37 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9623563b-33cb-4c51-86b5-4f6b6581a859")
+	)
+	(wire
+		(pts
+			(xy 88.9 67.31) (xy 96.52 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996fd5c2-64fb-45a5-a7a6-ff17917a4d15")
+	)
+	(wire
+		(pts
+			(xy 88.9 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b85ad74-90ce-4a8e-b73d-ea5b30b71612")
+	)
+	(wire
+		(pts
+			(xy 66.04 67.31) (xy 73.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9befe702-4c79-4581-ac4b-d83f047efe2a")
+	)
+	(wire
+		(pts
+			(xy 39.37 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dabc63e-5292-452f-8e16-9fdacadc2f40")
+	)
+	(wire
+		(pts
+			(xy 151.13 55.88) (xy 151.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffb4af3-c240-46bd-8054-cf490a34de68")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 88.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d46d53-39e4-46e5-93fe-523b2d5fdd8f")
+	)
+	(wire
+		(pts
+			(xy 151.13 63.5) (xy 151.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a491875b-2e3e-43f1-a426-de67ec393385")
+	)
+	(wire
+		(pts
+			(xy 39.37 77.47) (xy 39.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7ec05b-bf79-4409-8ae4-eeffaf5027bb")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb16f21-9c6b-402e-9683-a84506607e41")
+	)
+	(wire
+		(pts
+			(xy 43.18 154.94) (xy 53.34 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1524bc5-3a43-449f-a2c5-a1bad34b8378")
+	)
+	(wire
+		(pts
+			(xy 78.74 160.02) (xy 78.74 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21bc95b-c873-42a4-8560-fd26ea0fabd4")
+	)
+	(wire
+		(pts
+			(xy 66.04 176.53) (xy 53.34 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b551d676-c367-4af3-9c0f-074b45d95cfd")
+	)
+	(wire
+		(pts
+			(xy 185.42 92.71) (xy 185.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1ca93b-a38b-4f24-938f-b916706edcc0")
+	)
+	(wire
+		(pts
+			(xy 200.66 83.82) (xy 200.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38fa712-d4c3-4473-9a2b-778407455a6a")
+	)
+	(wire
+		(pts
+			(xy 73.66 67.31) (xy 88.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c484f9f0-3932-45ce-a436-4455e1e45735")
+	)
+	(wire
+		(pts
+			(xy 151.13 67.31) (xy 170.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55aef89-3464-49e4-90ea-87c37a150dab")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70d3778-fc67-41c6-bb2e-adae6081d172")
+	)
+	(wire
+		(pts
+			(xy 66.04 176.53) (xy 66.04 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b5d8e5-e1ab-435b-8204-57326fb2bf28")
+	)
+	(wire
+		(pts
+			(xy 185.42 99.06) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df034e39-2f92-4566-8e02-5619e41b5772")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 200.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df96071f-0f79-4a6b-8887-e120da3173b1")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 200.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e11c88-9100-441e-921d-6698d1a6ec6e")
+	)
+	(wire
+		(pts
+			(xy 151.13 92.71) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15339b2-7ce3-4f08-a06e-c860b0a9c0de")
+	)
+	(wire
+		(pts
+			(xy 39.37 55.88) (xy 39.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f221dc62-97e7-410a-99ba-8ae995581317")
+	)
+	(wire
+		(pts
+			(xy 73.66 92.71) (xy 73.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7595172-79a1-4d76-bad3-224def686e35")
+	)
+	(label "TRANSDUCER_SIGNAL"
+		(at 157.48 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "299bc4c4-57f9-4914-bf3d-d8fe769c65f9")
+	)
+	(label "T-"
+		(at 45.72 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a4792e7-08a0-469c-bbab-30b2e6008c67")
+	)
+	(label "T+"
+		(at 49.53 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a93612c7-20ab-4a9e-b087-7b6c25ddd6bd")
+	)
+	(label "GPIO_28"
+		(at 193.04 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad218f1a-b80f-4a48-a380-ce1e0d8abd99")
+	)
+	(global_label "ADC-REF"
+		(shape input)
+		(at 151.13 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4a5d5aa3-df45-41b2-8e4e-740567bfa86c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 36.0902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC-REF"
+		(shape input)
+		(at 39.37 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "57262478-9a29-4d1f-a714-57c7072000c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 36.0902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 78.74 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9a8523f9-2cce-46f2-a297-5bb143f4c18d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.7088 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5v"
+		(shape input)
+		(at 162.56 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "e6c46268-e0e8-4770-8258-914c0ef9bfe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 153.2607 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "GPIO_18"
+		(shape input)
+		(at 100.33 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5bcd13d5-0e27-42eb-ab6f-5bf47097f686")
+	)
+	(hierarchical_label "GPIO_16"
+		(shape input)
+		(at 100.33 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7c38fd34-6f68-4ee9-aeff-f5961a7d6360")
+	)
+	(hierarchical_label "GPIO_26"
+		(shape input)
+		(at 96.52 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8167fbba-3736-4bc6-a2d6-9ce22fb33158")
+	)
+	(hierarchical_label "GPIO_27"
+		(shape input)
+		(at 208.28 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9cb998bf-23a6-48bb-8d0c-d1ee8a4688ac")
+	)
+	(hierarchical_label "GPIO_17"
+		(shape input)
+		(at 100.33 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "aba754cf-819b-4cc8-a4b5-13f287d7a18a")
+	)
+	(hierarchical_label "GPIO_28"
+		(shape input)
+		(at 214.63 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "da839cd7-ed12-4e65-bae9-05bf109fd4bb")
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 16.51 46.99 0)
+		(at 62.23 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1351,26 +2412,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e352756-9db6-47bd-9750-e0d723cd8b2a")
-		(property "Reference" "R25"
-			(at 19.05 45.7199 0)
+		(property "Reference" "R22"
+			(at 62.23 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1K"
-			(at 19.05 48.2599 0)
+			(at 62.23 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 14.732 46.99 90)
+			(at 62.23 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +2438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 46.99 0)
+			(at 62.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +2447,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 16.51 46.99 0)
+			(at 62.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +2464,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "R25")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1413,7 +2472,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 17.78 17.78 0)
+		(at 39.37 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1422,7 +2481,7 @@
 		(fields_autoplaced yes)
 		(uuid "1193961e-3ed0-4255-a135-1901cfdf6b7c")
 		(property "Reference" "R23"
-			(at 20.32 16.5099 0)
+			(at 41.91 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +2490,7 @@
 			)
 		)
 		(property "Value" "3.3K"
-			(at 20.32 19.0499 0)
+			(at 41.91 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +2499,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 16.002 17.78 90)
+			(at 37.592 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +2508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 17.78 0)
+			(at 39.37 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +2517,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 17.78 17.78 0)
+			(at 39.37 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +2542,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 219.71 43.18 0)
+		(at 199.39 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1491,8 +2550,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13774208-03d2-469f-8bb8-fcdee8609022")
-		(property "Reference" "C17"
-			(at 223.52 41.9099 0)
+		(property "Reference" "C16"
+			(at 203.2 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +2560,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 223.52 44.4499 0)
+			(at 203.2 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +2569,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 220.6752 46.99 0)
+			(at 200.3552 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +2578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 43.18 0)
+			(at 199.39 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +2587,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 219.71 43.18 0)
+			(at 199.39 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +2604,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1553,7 +2612,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 17.78 31.75 0)
+		(at 39.37 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1562,7 +2621,7 @@
 		(fields_autoplaced yes)
 		(uuid "1923e6ad-cddb-47bc-a755-cda0ed6286a5")
 		(property "Reference" "TH1"
-			(at 20.32 30.7974 0)
+			(at 41.91 72.7074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +2630,7 @@
 			)
 		)
 		(property "Value" "50k NTC"
-			(at 20.32 33.3374 0)
+			(at 41.91 75.2474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +2639,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 17.78 30.48 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +2648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 30.48 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +2657,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 17.78 31.75 0)
+			(at 39.37 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +2666,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 17.78 31.75 0)
+			(at 39.37 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,17 +2690,82 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 129.54 36.83 180)
+		(lib_id "power:GND")
+		(at 66.04 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "27890c1e-5a33-4c28-b7aa-147af11c10d8")
+		(property "Reference" "#PWR026"
+			(at 66.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ad2f578-a42b-4ef0-91cb-bc4e784d7d85")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 38.1 153.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "2e26da2a-70ae-44df-93ad-0809d12a0594")
-		(property "Reference" "J1"
-			(at 129.54 27.94 0)
+		(property "Reference" "J4"
+			(at 38.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +2773,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 129.54 30.48 0)
+			(at 30.48 153.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +2781,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 129.54 36.83 0)
+			(at 38.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +2790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 36.83 0)
+			(at 38.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +2799,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 129.54 36.83 0)
+			(at 38.1 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,24 +2816,24 @@
 		(instances
 			(project ""
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 231.14 33.02 0)
+		(lib_id "Device:C")
+		(at 185.42 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "33a3beb1-0708-4e24-8ceb-3e34a86e7583")
-		(property "Reference" "R27"
-			(at 233.68 31.7499 0)
+		(uuid "2fb41bf4-2764-4cc9-ad0d-4b6c3de12271")
+		(property "Reference" "C13"
+			(at 189.23 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,8 +2841,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
-			(at 233.68 34.2899 0)
+		(property "Value" "100n"
+			(at 189.23 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,8 +2850,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 229.362 33.02 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 186.3852 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,7 +2860,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 33.02 0)
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df28df74-3f1d-42e7-8818-bc753ae125ae")
+		)
+		(pin "2"
+			(uuid "73cc1c67-e638-47ce-b9ff-860ccc2cb74e")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33a3beb1-0708-4e24-8ceb-3e34a86e7583")
+		(property "Reference" "R26"
+			(at 185.42 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 185.42 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 181.102 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +2939,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 231.14 33.02 0)
+			(at 182.88 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +2956,74 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "R27")
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35e5c0e1-7357-43b8-b407-8201dcc5ecda")
+		(property "Reference" "#PWR028"
+			(at 153.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f013c49-96d1-4f60-b75c-cfbd4dc5c7f4")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1770,16 +3031,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 22.86 0)
+		(at 151.13 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "388f46a7-2b03-4d82-a05d-f59b9f37fe40")
-		(property "Reference" "R26"
-			(at 81.28 21.5899 0)
+		(uuid "3a28b8b9-d6f6-43a9-9c98-36f6d6ee6afc")
+		(property "Reference" "R24"
+			(at 153.67 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,8 +3048,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 81.28 24.1299 0)
+		(property "Value" "1.2K"
+			(at 153.67 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +3058,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 76.962 22.86 90)
+			(at 149.352 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +3067,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 22.86 0)
+			(at 151.13 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +3076,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 22.86 0)
+			(at 151.13 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,15 +3085,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "de461d18-581e-4a3f-99c6-0f6bb3215d3f")
+			(uuid "21755faa-20ef-4d46-ba26-7e0cd00b595c")
 		)
 		(pin "1"
-			(uuid "6f95ed33-3ef7-4557-a116-8d09d020ce07")
+			(uuid "4aa7ee35-f18c-45ea-b1b1-11ea94cf3f82")
 		)
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -1840,7 +3101,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:MAX31855KASA")
-		(at 153.67 36.83 0)
+		(at 78.74 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1849,7 +3110,7 @@
 		(fields_autoplaced yes)
 		(uuid "414be8e0-6dc2-45c2-b496-48215ff823ae")
 		(property "Reference" "U3"
-			(at 155.8133 24.13 0)
+			(at 80.8833 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +3119,7 @@
 			)
 		)
 		(property "Value" "MAX31855KASA"
-			(at 155.8133 26.67 0)
+			(at 80.8833 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +3128,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 156.21 46.99 0)
+			(at 81.28 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +3139,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
-			(at 156.21 49.53 0)
+			(at 81.28 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +3149,7 @@
 			)
 		)
 		(property "Description" "Cold Junction K-type Thermocouple Interface, SPI, SOIC-8"
-			(at 156.21 44.45 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,84 +3192,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:PESD5V0S1UL")
-		(at 78.74 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "445ce7a7-cd2d-41d0-be40-62e0c05396c0")
-		(property "Reference" "D12"
-			(at 78.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PESD5V0S1UL"
-			(at 78.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 78.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 78.74 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
-			(at 78.74 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96b5d4e3-a4b8-41cf-b90c-8b25dc5f40f7")
-		)
-		(pin "1"
-			(uuid "54ad25a3-d615-42a4-b65d-4ead5e0beceb")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 231.14 52.07 0)
+		(at 182.88 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "542fd265-81b5-4729-bee9-68b2c93f5fe0")
-		(property "Reference" "R28"
-			(at 233.68 50.7999 0)
+		(property "Reference" "R27"
+			(at 185.42 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,7 +3210,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 233.68 53.3399 0)
+			(at 185.42 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,7 +3219,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 229.362 52.07 90)
+			(at 181.102 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +3228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 52.07 0)
+			(at 182.88 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +3237,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 231.14 52.07 0)
+			(at 182.88 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,42 +3254,24 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 64.77 21.59 0)
+		(lib_id "power:GND")
+		(at 199.39 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "66fc8d10-4fcf-4862-abb6-256a830c8e5c")
-		(property "Reference" "R24"
-			(at 67.31 20.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.2K"
-			(at 67.31 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 62.992 21.59 90)
+		(uuid "78b8219b-2025-4ddb-a0b6-3f2a36c46be8")
+		(property "Reference" "#PWR030"
+			(at 199.39 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,8 +3279,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 64.77 21.59 0)
+		(property "Value" "GND"
+			(at 199.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,8 +3296,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 64.77 21.59 0)
+		(property "Datasheet" ""
+			(at 199.39 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,16 +3305,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "23f27e40-ed7c-41ca-88ef-97daa2b9606e")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "b4a2d3d8-1ad3-47a2-8e70-45af4b0effaa")
+			(uuid "ded1e646-740e-4a11-93a1-807cf44a53ca")
 		)
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "R24")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2139,7 +3328,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 152.4 20.32 0)
+		(at 74.93 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2148,25 +3337,23 @@
 		(fields_autoplaced yes)
 		(uuid "8454edb1-bfcf-4ce4-8768-c8d81986b6b0")
 		(property "Reference" "C15"
-			(at 156.21 19.0499 0)
+			(at 74.93 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 156.21 21.5899 0)
+			(at 74.93 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 153.3652 24.13 0)
+			(at 78.74 128.5748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +3362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 20.32 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +3371,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 152.4 20.32 0)
+			(at 74.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,17 +3395,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 83.82 35.56 0)
+		(lib_id "Diode:PESD5V0S1UL")
+		(at 200.66 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "885d1a18-d328-4d14-ad08-a8fd0173e8c6")
-		(property "Reference" "C2"
-			(at 87.63 34.2899 0)
+		(uuid "88c1c982-dc60-4abf-9cea-2c015a4d2334")
+		(property "Reference" "D12"
+			(at 203.2 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,8 +3413,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 87.63 36.8299 0)
+		(property "Value" "PESD5V0S1UL"
+			(at 203.2 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,8 +3422,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 84.7852 39.37 0)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 195.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,8 +3431,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 83.82 35.56 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
+			(at 205.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,25 +3440,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 35.56 0)
+		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
+			(at 208.28 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "f2477b95-d0fe-4039-a7fb-b129ed6b2d8b")
 		)
 		(pin "2"
-			(uuid "dbbba333-98f4-420a-8400-4231cb51c0b2")
+			(uuid "62fdeeaa-1860-43d6-95c4-0e11a5337962")
+		)
+		(pin "1"
+			(uuid "8a15f811-db36-403f-8945-f7130b5d0334")
 		)
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "C2")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2279,16 +3466,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 243.84 41.91 0)
-		(mirror x)
+		(at 137.16 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8acdc168-dd23-4930-8d8d-a32836c8ad12")
-		(property "Reference" "J4"
-			(at 243.84 33.02 0)
+		(property "Reference" "J5"
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +3482,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 248.158 41.402 90)
+			(at 132.842 132.842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,7 +3490,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 243.84 41.91 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +3499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 41.91 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +3508,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 41.91 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,42 +3528,24 @@
 		(instances
 			(project ""
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 67.31 35.56 0)
+		(lib_id "power:GND")
+		(at 182.88 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1fe34eb-6e9a-44e9-b6ce-44500553536e")
-		(property "Reference" "TH2"
-			(at 69.85 34.6074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50k NTC"
-			(at 69.85 37.1474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.31 34.29 0)
+		(uuid "8e83fd2d-5852-4768-97cc-ff05a629356e")
+		(property "Reference" "#PWR029"
+			(at 182.88 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,8 +3553,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 67.31 34.29 0)
+		(property "Value" "GND"
+			(at 182.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,8 +3570,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 67.31 35.56 0)
+		(property "Datasheet" ""
+			(at 182.88 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,8 +3579,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
-			(at 67.31 35.56 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,50 +3589,177 @@
 			)
 		)
 		(pin "1"
-			(uuid "a32fb456-e725-4fe1-ac53-91b6a591c4e1")
-		)
-		(pin "2"
-			(uuid "d2a6737b-17a2-46c4-9fba-d01ffd3f65a5")
+			(uuid "ef145a64-acb3-468f-8b61-430998198cb3")
 		)
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "TH2")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.59 54.61 0)
+		(lib_id "power:GND")
+		(at 67.31 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cbc72c67-cd8d-4ddc-ac78-c1169fd5f96f")
-		(property "Reference" "C16"
-			(at 152.4 53.3399 0)
+		(uuid "bdcc12a0-0787-4701-845f-9a15c2f75e18")
+		(property "Reference" "#PWR027"
+			(at 67.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10n"
-			(at 152.4 55.8799 0)
+		(property "Value" "GND"
+			(at 67.31 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 149.5552 58.42 0)
+		(property "Footprint" ""
+			(at 67.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f945df6-7c1a-4486-9224-4181b115217b")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4c00df1-ef98-413c-8265-5233ffd44387")
+		(property "Reference" "#PWR025"
+			(at 185.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11fd4961-14f7-4679-9097-0ef13dd5ccf6")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7023dc3-8729-400a-a0a9-8057be7840d0")
+		(property "Reference" "R25"
+			(at 173.99 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 173.99 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 173.99 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +3768,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 54.61 0)
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77992f1a-d073-40bc-92e8-b901b9f1ea39")
+		)
+		(pin "1"
+			(uuid "73bd71a0-fe0f-404c-8d29-34696f3aebc6")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbc72c67-cd8d-4ddc-ac78-c1169fd5f96f")
+		(property "Reference" "C14"
+			(at 57.15 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 57.15 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 54.3052 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +3847,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 54.61 0)
+			(at 53.34 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +3864,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "C16")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2499,7 +3872,7 @@
 	)
 	(symbol
 		(lib_id "Diode:PESD5V0S1UL")
-		(at 36.83 46.99 0)
+		(at 88.9 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2508,23 +3881,25 @@
 		(fields_autoplaced yes)
 		(uuid "d112714b-dfe6-4abe-9fcb-aa6788a8b79c")
 		(property "Reference" "D11"
-			(at 36.83 40.64 0)
+			(at 91.44 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "PESD5V0S1UL"
-			(at 36.83 43.18 0)
+			(at 91.44 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-882"
-			(at 36.83 52.07 0)
+			(at 83.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +3908,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1UL.pdf"
-			(at 36.83 41.91 0)
+			(at 93.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +3917,7 @@
 			)
 		)
 		(property "Description" "Unidirectional ESD protection diode, 5V, SOD-882"
-			(at 36.83 39.37 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +3942,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 31.75 26.67 0)
+		(at 73.66 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2575,8 +3950,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0c28692-957c-48b1-8880-8350a5a8467a")
-		(property "Reference" "C1"
-			(at 35.56 25.3999 0)
+		(property "Reference" "C12"
+			(at 77.47 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +3960,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 35.56 27.9399 0)
+			(at 77.47 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +3969,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 32.7152 30.48 0)
+			(at 74.6252 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +3978,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 26.67 0)
+			(at 73.66 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +3987,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 31.75 26.67 0)
+			(at 73.66 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +4004,152 @@
 		(instances
 			(project ""
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "C1")
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeae7475-a393-422c-a184-ac819fdbad27")
+		(property "Reference" "#PWR024"
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5dc2562-cbe8-4d42-9f45-ff3703072642")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 151.13 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f21b59c4-0d2b-4bf0-8c3a-8edf403e9adc")
+		(property "Reference" "TH2"
+			(at 153.67 72.7074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50k NTC"
+			(at 153.67 75.2474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "984bc9b9-48ff-4352-9541-96b2abcf9ad0")
+		)
+		(pin "2"
+			(uuid "98237c5f-e539-40bb-9f4a-f470db33dab0")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "TH2")
 					(unit 1)
 				)
 			)
