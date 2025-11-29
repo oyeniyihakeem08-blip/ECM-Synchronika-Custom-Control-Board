@@ -1,0 +1,345 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0a1cfe74-4adf-4cda-8eff-54fb631bdb34")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 40.64 33.02) (xy 53.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fa5dfd-5f55-446d-8302-2aa054c599ac")
+	)
+	(sheet
+		(at 53.34 17.145)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "023e62d7-ac84-46e4-a627-6b28286ed469")
+		(property "Sheetname" "Relays+RC SNUBBER"
+			(at 53.34 16.383 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relays+RC SNUBBER.kicad_sch"
+			(at 53.34 38.0496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO_10" output
+			(at 82.55 20.955 0)
+			(uuid "b3ffb4ab-06af-42bd-ae5b-9891acb14e4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_11" output
+			(at 82.55 26.035 0)
+			(uuid "30977877-1898-49d5-93a6-3dc412c9c14a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_20" output
+			(at 82.55 31.115 0)
+			(uuid "93c871b4-53c8-4d30-a4cc-b0224464cb3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L_FUSED" output
+			(at 53.34 33.02 180)
+			(uuid "5ffb8620-f3a3-4e4b-bb1d-257ee6632c12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_12" output
+			(at 82.55 35.56 0)
+			(uuid "facf9585-609f-4113-b4d0-a3502eb73233")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 87.63)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "219dc6f5-caa4-4fbf-9730-f96a4d06b3e9")
+		(property "Sheetname" "SENSOR INPUT"
+			(at 30.48 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SENSOR INPUT.kicad_sch"
+			(at 30.48 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 16.51)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66e61237-0dee-4721-9e95-e23431ee422c")
+		(property "Sheetname" "SSR"
+			(at 234.95 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SSR.kicad_sch"
+			(at 234.95 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 14.605)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b9a90b3-d0b5-46b5-a44b-f4a38eaf058d")
+		(property "Sheetname" "5V_ TO_3V3"
+			(at 139.7 13.8934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V_ TO_3V3.kicad_sch"
+			(at 139.7 35.5096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 16.51)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1f8f573-d884-4909-8ded-c236ff34aedd")
+		(property "Sheetname" "HV_INPUT + PROTECTION"
+			(at 13.97 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HV_INPUT .kicad_sch"
+			(at 13.97 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "L_FUSED" output
+			(at 40.64 33.02 0)
+			(uuid "5fe4543b-d41d-47a1-afdd-6d3e859555b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N_FUSED" output
+			(at 40.64 21.59 0)
+			(uuid "0eeb863b-1d50-4246-9123-5debf9d494ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 94.615 16.51)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa757c9b-92b6-48f7-b60b-b85d2ef688f7")
+		(property "Sheetname" "MCU"
+			(at 94.615 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 94.615 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
