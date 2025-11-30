@@ -2169,154 +2169,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:Earth_Protective"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Earth_Protective"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground gnd clean"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Earth_Protective_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -4.445) (xy 0.635 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -5.08) (xy 0.127 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.81)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Earth_Protective_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2906,16 +2758,6 @@
 			(type default)
 		)
 		(uuid "02afc782-eaf8-4e02-8334-3a97b3897c3f")
-	)
-	(wire
-		(pts
-			(xy 303.53 355.6) (xy 313.69 355.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b61d3e-2d24-4582-8ae4-e81476016a04")
 	)
 	(wire
 		(pts
@@ -3789,6 +3631,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 355.6) (xy 307.34 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0512eda-dbc1-4b69-aceb-fe0b0ed55522")
+	)
+	(wire
+		(pts
 			(xy 435.61 138.43) (xy 435.61 134.62)
 		)
 		(stroke
@@ -3866,16 +3718,6 @@
 			(type default)
 		)
 		(uuid "b0308e13-1aa0-4b74-86ad-395495faccd5")
-	)
-	(wire
-		(pts
-			(xy 194.31 356.87) (xy 194.31 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0c83604-69af-41ea-9a8d-9d2eb9a52840")
 	)
 	(wire
 		(pts
@@ -4289,18 +4131,6 @@
 		)
 		(uuid "87727761-a7b3-47e9-85e0-fd626401ea36")
 	)
-	(label "WATER_SWITCH_SIGNAL"
-		(at 425.45 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b4ebf0f-aed1-4413-a520-a31aa4375cb8")
-	)
 	(label "AC_OUT"
 		(at 135.89 349.25 180)
 		(effects
@@ -4312,30 +4142,6 @@
 			(justify right bottom)
 		)
 		(uuid "926b4635-e400-45bf-95ea-b17944e7981a")
-	)
-	(label "BOILER"
-		(at 173.99 346.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7443cee-867b-4bb5-938f-d01914e7eae8")
-	)
-	(label "BREW_HANDLE_SWITCHES"
-		(at 427.99 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "a864fcb1-b3b8-4427-a49a-49475f0e23a3")
 	)
 	(label "T+"
 		(at 71.12 213.36 0)
@@ -4361,18 +4167,6 @@
 		)
 		(uuid "ad218f1a-b80f-4a48-a380-ce1e0d8abd99")
 	)
-	(label "TANK_LEVEL_SIGNAL"
-		(at 515.62 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "b166f938-a019-470b-a11e-eedcd7bdab59")
-	)
 	(label "AC_SENSE"
 		(at 234.95 358.14 180)
 		(effects
@@ -4384,18 +4178,6 @@
 			(justify right bottom)
 		)
 		(uuid "e46bc087-506f-4780-9124-a5f2d0dd3a88")
-	)
-	(label "BOILER_BODY"
-		(at 194.31 356.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ebd5b623-8635-4888-8c57-c83f19e5a89d")
 	)
 	(label "AC_SENSE"
 		(at 161.29 378.46 180)
@@ -5427,7 +5209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 394.97 63.5 0)
 			(effects
 				(font
@@ -7082,7 +6864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 194.31 346.71 0)
 			(effects
 				(font
@@ -7324,6 +7106,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 335.28 375.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "788fdfd7-4910-46dc-96a1-2602fe27caed")
+		(property "Reference" "#PWR049"
+			(at 335.28 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 335.28 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e18475f1-35db-4a37-8599-ba9688e8e609")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 109.22 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7413,7 +7261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 394.97 78.74 0)
 			(effects
 				(font
@@ -8083,7 +7931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 485.14 63.5 0)
 			(effects
 				(font
@@ -8278,7 +8126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 397.51 138.43 0)
 			(effects
 				(font
@@ -9090,7 +8938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 485.14 78.74 0)
 			(effects
 				(font
@@ -9425,7 +9273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 397.51 123.19 0)
 			(effects
 				(font
@@ -10099,72 +9947,6 @@
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
 					(reference "TH2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth_Protective")
-		(at 194.31 363.22 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7fba40b-05d2-41ad-911d-a7847f17ac5b")
-		(property "Reference" "#PWR036"
-			(at 194.31 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth_Protective"
-			(at 194.31 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-			(at 194.31 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "651989d1-aff7-4fdc-8c97-9555e3482965")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)

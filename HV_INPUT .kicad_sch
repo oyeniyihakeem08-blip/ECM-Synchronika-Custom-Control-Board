@@ -2121,16 +2121,6 @@
 		)
 		(uuid "0c9019f4-114d-4380-849c-0108cf64cd8d")
 	)
-	(label "NEUTRAL"
-		(at 60.96 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59217d25-5b32-42a7-9461-f623d1a952e9")
-	)
 	(label "LIVE"
 		(at 48.26 38.1 0)
 		(effects
@@ -2407,7 +2397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 27.94 54.61 0)
 			(effects
 				(font
@@ -2603,7 +2593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 38.1 45.72 0)
 			(effects
 				(font
@@ -3583,7 +3573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 38.1 38.1 0)
 			(effects
 				(font

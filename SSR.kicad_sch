@@ -1191,26 +1191,6 @@
 		)
 		(uuid "2c6f69db-86d9-4043-b43a-5f726e848ded")
 	)
-	(label "SSR_INPUT_+"
-		(at 158.75 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fa2e42e-3b58-49e3-8f14-83fa7d49792d")
-	)
-	(label "SSR_INPUT_+"
-		(at 41.91 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41ee89dc-9400-4326-8abe-9d1bcd518ae4")
-	)
 	(label "SSR_INPUT_-"
 		(at 163.83 85.09 0)
 		(effects

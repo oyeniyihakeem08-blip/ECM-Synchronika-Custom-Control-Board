@@ -1786,6 +1786,22 @@
 		(color 0 0 0 0)
 		(uuid "fe8011e8-4cc9-48bb-b753-b232829ad102")
 	)
+	(no_connect
+		(at 48.26 44.45)
+		(uuid "878f9104-b7ba-45ca-aef5-ed9271f33f85")
+	)
+	(no_connect
+		(at 196.85 49.53)
+		(uuid "96e96325-8741-4d5d-b4ca-672632794118")
+	)
+	(no_connect
+		(at 48.26 130.81)
+		(uuid "dc545eff-ada5-47b7-bd91-bedd84d084b8")
+	)
+	(no_connect
+		(at 152.4 130.81)
+		(uuid "f2f73f71-c5b4-4a5d-a520-2e1058dd3da7")
+	)
 	(wire
 		(pts
 			(xy 242.57 43.18) (xy 242.57 38.1)
@@ -3195,7 +3211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 33.02 152.4 0)
 			(effects
 				(font
@@ -3694,7 +3710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FLYBACK DIODE"
+		(property "Description" "Diode"
 			(at 76.2 144.78 0)
 			(effects
 				(font
@@ -4038,7 +4054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 139.7 125.73 0)
 			(effects
 				(font
@@ -4845,7 +4861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FLYBACK DIODE"
+		(property "Description" "Diode"
 			(at 180.34 144.78 0)
 			(effects
 				(font
@@ -4912,7 +4928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 35.56 39.37 0)
 			(effects
 				(font
@@ -5108,7 +5124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 34.29 125.73 0)
 			(effects
 				(font
@@ -5374,7 +5390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 24.13 67.31 0)
 			(effects
 				(font
@@ -6683,7 +6699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FLYBACK DIODE"
+		(property "Description" "Diode"
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -6751,7 +6767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 137.16 151.13 0)
 			(effects
 				(font
@@ -6947,7 +6963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 185.42 69.85 0)
 			(effects
 				(font
@@ -7425,7 +7441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
+		(property "Footprint" "928814-1:TE_928814-1"
 			(at 180.34 44.45 0)
 			(effects
 				(font

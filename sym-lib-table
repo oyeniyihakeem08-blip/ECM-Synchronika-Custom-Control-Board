@@ -7,4 +7,5 @@
   (lib (name "4_pin")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/4-PIN  MTLW-104-X-X-S-X.kicad_sym")(options "")(descr ""))
   (lib (name "5_pin")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/5_pin_header  TSW-105-05-L-S-LL.kicad_sym")(options "")(descr ""))
   (lib (name "5V DIODE")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/D(5V) SMBJ5.0A.kicad_sym")(options "")(descr ""))
+  (lib (name "HLMK_5M05")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/HLK-5M05.kicad_sym")(options "")(descr ""))
 )
