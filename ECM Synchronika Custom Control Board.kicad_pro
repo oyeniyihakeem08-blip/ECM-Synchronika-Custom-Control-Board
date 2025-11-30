@@ -636,6 +636,10 @@
     [
       "219dc6f5-caa4-4fbf-9730-f96a4d06b3e9",
       "SENSOR INPUT"
+    ],
+    [
+      "180ab2c6-997f-4c3b-b693-7bfb58c46537",
+      "PORTS"
     ]
   ],
   "text_variables": {}

@@ -167,6 +167,48 @@
 		)
 	)
 	(sheet
+		(at 90.17 62.23)
+		(size 36.83 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "180ab2c6-997f-4c3b-b693-7bfb58c46537")
+		(property "Sheetname" "PORTS"
+			(at 90.17 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PORTS.kicad_sch"
+			(at 90.17 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 30.48 87.63)
 		(size 26.67 20.32)
 		(exclude_from_sim no)
@@ -258,6 +300,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GPIO_2" input
+			(at 30.48 92.71 180)
+			(uuid "7c986837-2806-4027-afd5-eb6af75bb485")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_3" input
+			(at 30.48 97.79 180)
+			(uuid "0ff1dae4-08ed-4306-8557-be258cabeb22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_4" input
+			(at 30.48 101.6 180)
+			(uuid "71117a26-78e6-45dc-975b-446f0b4e3511")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_5" input
+			(at 30.48 105.41 180)
+			(uuid "206a2239-4506-49d0-8d9d-dfc7cf2a97c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

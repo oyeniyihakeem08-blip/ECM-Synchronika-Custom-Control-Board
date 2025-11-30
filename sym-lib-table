@@ -1,4 +1,10 @@
 (sym_lib_table
   (version 7)
   (lib (name "6.3mm spade")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/6.3mm spade  928814-1.kicad_sym")(options "")(descr ""))
+  (lib (name "OPA342UA")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/OPA342UA,N.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV3201AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/COMPARATOR-TLV3201AIDBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "8_PIN")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/JST_8_PIN  BM08B-GHS-TBT_LF__SN__N_.kicad_sym")(options "")(descr ""))
+  (lib (name "4_pin")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/4-PIN  MTLW-104-X-X-S-X.kicad_sym")(options "")(descr ""))
+  (lib (name "5_pin")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/5_pin_header  TSW-105-05-L-S-LL.kicad_sym")(options "")(descr ""))
+  (lib (name "5V DIODE")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/D(5V) SMBJ5.0A.kicad_sym")(options "")(descr ""))
 )
