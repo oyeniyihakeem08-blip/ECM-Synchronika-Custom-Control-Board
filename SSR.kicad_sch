@@ -1181,26 +1181,6 @@
 		)
 		(uuid "e2d561ad-c483-4a8a-b880-8fa500d2875e")
 	)
-	(label "SSR_INPUT_-"
-		(at 41.91 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c6f69db-86d9-4043-b43a-5f726e848ded")
-	)
-	(label "SSR_INPUT_-"
-		(at 163.83 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f11b53e-9ca1-4104-ae72-929492378d5b")
-	)
 	(global_label "+5v"
 		(shape input)
 		(at 181.61 59.69 90)
@@ -1295,7 +1275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 151.13 69.85 0)
 			(effects
 				(font
@@ -1509,7 +1489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 31.75 71.12 0)
 			(effects
 				(font

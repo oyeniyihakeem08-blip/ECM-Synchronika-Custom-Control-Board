@@ -1,11 +1,32 @@
-26429783534943076
+26443899210179853
+4 PIN
+SAMTEC_MTLW-104-X-X-S-X
+
+
+0
+4
+4
+5 PIN
+SAMTEC_TSW-105-05-L-S-LL
+
+
+0
+5
+5
 6.3mm spade
 TE_928814-1
 
 
 0
-2
-2
+1
+1
+8 PIN HEADER
+JST_BM08B-GHS-TBT_LF__SN__N_
+
+
+0
+10
+10
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2736,6 +2757,13 @@ speaker CUI
 0
 2
 2
+COMPARATOR
+COMPARTOR_SOT95P280X145-5N
+
+
+0
+5
+5
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -59226,6 +59254,13 @@ ceramic
 0
 3
 3
+D(5V)
+DIOM4336X265N
+
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -73142,6 +73177,27 @@ net tie
 0
 4
 4
+OPA342UA
+D8
+
+OPA342UA 
+0
+8
+8
+OPA342UA
+D8-L
+
+OPA342UA 
+0
+8
+8
+OPA342UA
+D8-M
+
+OPA342UA 
+0
+8
+8
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800

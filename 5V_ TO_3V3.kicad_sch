@@ -1058,6 +1058,54 @@
 			)
 		)
 	)
+	(global_label "+3V3"
+		(shape output)
+		(at 119.38 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4537a4de-235d-4e87-b540-d50aae704e7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 84.1688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape output)
+		(at 175.26 90.17 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "71216857-a845-4e66-a74c-aa39c65cfa84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 81.6288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC-REF"
 		(shape output)
 		(at 232.41 90.17 0)

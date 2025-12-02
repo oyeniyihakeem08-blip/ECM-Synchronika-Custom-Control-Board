@@ -2270,6 +2270,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 387.35 92.71)
@@ -3088,6 +3189,16 @@
 			(type default)
 		)
 		(uuid "453fbe44-f284-4710-a2e4-13426d2fc131")
+	)
+	(wire
+		(pts
+			(xy 85.09 115.57) (xy 85.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a321ab-a887-4c53-b059-b61a615beb8b")
 	)
 	(wire
 		(pts
@@ -4191,33 +4302,9 @@
 		)
 		(uuid "ece10070-249e-476e-bf04-6c237e73301d")
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 78.74 379.73 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "0e56736a-f09c-4a75-8b2a-ad30709af574")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 386.6988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 335.28 347.98 90)
+	(global_label "+3V3"
+		(shape output)
+		(at 516.89 45.72 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4227,9 +4314,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1b8bd1ad-826e-404d-ada0-939b88b11da3")
+		(uuid "3d9db48d-0219-440a-9117-271c7c71cacc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.28 341.0112 90)
+			(at 516.89 37.1788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,8 +4374,128 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
+	(global_label "+3V3"
+		(shape output)
+		(at 335.28 347.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "691da1e3-e869-493a-888a-78a975706d35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.28 339.4388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape output)
+		(at 426.72 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "871a04b3-cf71-4441-9aa5-86559f288026")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 426.72 37.1788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape output)
+		(at 279.4 336.55 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8e168c32-a707-499b-b17b-02556a89b8c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.4 328.0088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape output)
+		(at 429.26 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "cebb8452-7c9a-43bc-a81e-d2bd3cc07181")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 429.26 96.8688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape output)
+		(at 78.74 379.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "d60372b9-6f9b-4090-8d25-acb378f21663")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 388.2712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape output)
 		(at 100.33 199.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4299,9 +4506,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9a8523f9-2cce-46f2-a297-5bb143f4c18d")
+		(uuid "dc437ddf-e0ec-4d2c-96f9-593ec2aaff35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.2988 199.39 0)
+			(at 108.8712 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,102 +4538,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 429.26 105.41 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "e94343a5-eede-431d-9cfb-028c78dc1b66")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 429.26 98.4412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 426.72 45.72 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "e99fa7a1-5366-4308-9902-046ecd4c0ca8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.72 38.7512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 279.4 336.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "eb38a167-e125-4b61-8a26-7fdf5c22fe86")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.4312 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 516.89 45.72 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "f659016e-8ef2-42db-b320-ebac2ce60a4e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 516.89 38.7512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4759,6 +4870,72 @@
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 88.9 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5826f9-78f6-4217-8f03-079baecd3c4a")
+		(property "Reference" "#PWR027"
+			(at 88.9 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 88.9 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 88.9 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2c82e5-e5ea-4963-90a3-1e81711b886f")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5209,7 +5386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "928814-1:TE_928814-1"
+		(property "Footprint" "6.3mm spade:TE_928814-1"
 			(at 394.97 63.5 0)
 			(effects
 				(font
@@ -5446,6 +5623,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 88.9 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23e0e6dd-06f8-4278-b639-012192dc03f0")
+		(property "Reference" "#PWR024"
+			(at 88.9 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 88.9 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7808cbe6-4f40-4efa-9e95-edf4b21126b8")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 426.72 54.61 0)
 		(unit 1)
@@ -5510,72 +5753,6 @@
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 231.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27890c1e-5a33-4c28-b7aa-147af11c10d8")
-		(property "Reference" "#PWR026"
-			(at 87.63 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ad2f578-a42b-4ef0-91cb-bc4e784d7d85")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLV3201AIDBVR:SOT95P280X145-5N"
+		(property "Footprint" "COMPARATOR:COMPARTOR_SOT95P280X145-5N"
 			(at 279.4 355.6 0)
 			(effects
 				(font
@@ -6864,7 +7041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "928814-1:TE_928814-1"
+		(property "Footprint" "6.3mm spade:TE_928814-1"
 			(at 194.31 346.71 0)
 			(effects
 				(font
@@ -7261,7 +7438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "928814-1:TE_928814-1"
+		(property "Footprint" "6.3mm spade:TE_928814-1"
 			(at 394.97 78.74 0)
 			(effects
 				(font
@@ -7931,7 +8108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "928814-1:TE_928814-1"
+		(property "Footprint" "6.3mm spade:TE_928814-1"
 			(at 485.14 63.5 0)
 			(effects
 				(font
@@ -8102,6 +8279,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 87.63 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8554e8d-f2a5-4886-8b68-b3a852c59481")
+		(property "Reference" "#PWR026"
+			(at 87.63 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 87.63 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 87.63 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22a1bbc3-f384-4619-bf23-e2d4b97b7e41")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "6.3mm spade:928814-1")
 		(at 397.51 138.43 180)
 		(unit 1)
@@ -8126,7 +8369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "928814-1:TE_928814-1"
+		(property "Footprint" "6.3mm spade:TE_928814-1"
 			(at 397.51 138.43 0)
 			(effects
 				(font
@@ -8504,138 +8747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 200.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdcc12a0-0787-4701-845f-9a15c2f75e18")
-		(property "Reference" "#PWR027"
-			(at 88.9 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f945df6-7c1a-4486-9224-4181b115217b")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.09 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4c00df1-ef98-413c-8265-5233ffd44387")
-		(property "Reference" "#PWR025"
-			(at 85.09 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11fd4961-14f7-4679-9097-0ef13dd5ccf6")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 73.66 88.9 90)
 		(mirror x)
@@ -8938,7 +9049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "928814-1:TE_928814-1"
+		(property "Footprint" "6.3mm spade:TE_928814-1"
 			(at 485.14 78.74 0)
 			(effects
 				(font
@@ -9273,7 +9384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "928814-1:TE_928814-1"
+		(property "Footprint" "6.3mm spade:TE_928814-1"
 			(at 397.51 123.19 0)
 			(effects
 				(font
@@ -9654,6 +9765,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 85.09 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e884c52c-132e-42c2-899c-0b022bcac3e9")
+		(property "Reference" "#PWR025"
+			(at 85.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 85.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae47eb0a-c818-46b9-b5c3-db0c6daa6a05")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OPA342UA:OPA342UA")
 		(at 78.74 351.79 0)
 		(unit 1)
@@ -9679,7 +9856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D8"
+		(property "Footprint" "OPA342UA:D8"
 			(at 78.74 351.79 0)
 			(effects
 				(font
@@ -9736,72 +9913,6 @@
 			(project ""
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eeae7475-a393-422c-a184-ac819fdbad27")
-		(property "Reference" "#PWR024"
-			(at 88.9 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5dc2562-cbe8-4d42-9f45-ff3703072642")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/219dc6f5-caa4-4fbf-9730-f96a4d06b3e9"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
