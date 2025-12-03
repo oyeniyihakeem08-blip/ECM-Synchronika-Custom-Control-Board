@@ -9,4 +9,5 @@
   (lib (name "5V DIODE")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/D(5V) SMBJ5.0A.kicad_sym")(options "")(descr ""))
   (lib (name "HLMK_5M05")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/HLK-5M05.kicad_sym")(options "")(descr ""))
   (lib (name "TACTILE SWITCH")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/SMD SWITCH  EVQ-P7A01P.kicad_sym")(options "")(descr ""))
+  (lib (name "11 PIN")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/11 pin screw 1725740.kicad_sym")(options "")(descr ""))
 )

@@ -9,4 +9,5 @@
   (lib (name "D(5V)")(type "KiCad")(uri "${KIPRJMOD}/FOOTPRINT/D(5V).pretty")(options "")(descr ""))
   (lib (name "COMPARATOR")(type "KiCad")(uri "${KIPRJMOD}/FOOTPRINT/COMPARATOR.PRETTY")(options "")(descr ""))
   (lib (name "RELAY")(type "KiCad")(uri "${KIPRJMOD}/FOOTPRINT/RELAY.pretty")(options "")(descr ""))
+  (lib (name "11 PIN")(type "KiCad")(uri "${KIPRJMOD}/FOOTPRINT/screw terminal 11.pretty")(options "")(descr ""))
 )

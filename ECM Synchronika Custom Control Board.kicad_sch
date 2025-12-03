@@ -345,10 +345,28 @@
 		)
 	)
 	(junction
+		(at 91.44 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24109d88-39b6-4512-9820-64da5b00aa55")
+	)
+	(junction
 		(at 40.64 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7235d31d-52f4-4af1-83e4-7bec8c19346f")
+	)
+	(junction
+		(at 139.7 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "790c961f-0937-469b-9737-23815875ee9f")
+	)
+	(junction
+		(at 135.89 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2162977-5a64-4c92-9bf0-14118231292a")
 	)
 	(wire
 		(pts
@@ -359,6 +377,16 @@
 			(type default)
 		)
 		(uuid "1562d168-de51-4e7e-941b-7097a347fe19")
+	)
+	(wire
+		(pts
+			(xy 39.37 73.66) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a0f65a-12cd-4ca9-8930-b5fcd568d7c7")
 	)
 	(wire
 		(pts
@@ -432,16 +460,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 1.27) (xy 135.89 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3217691f-e9ef-4d49-90e5-049321554526")
-	)
-	(wire
-		(pts
 			(xy 115.57 36.83) (xy 115.57 59.69)
 		)
 		(stroke
@@ -502,6 +520,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 1.27) (xy 135.89 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431b3848-4573-4083-be9c-3ca1afa614d5")
+	)
+	(wire
+		(pts
 			(xy 133.35 132.08) (xy 31.75 132.08)
 		)
 		(stroke
@@ -549,6 +577,16 @@
 			(type default)
 		)
 		(uuid "52612eaa-5a2b-4633-a718-936e4c54d8f4")
+	)
+	(wire
+		(pts
+			(xy 39.37 82.55) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52939555-749f-408d-98fc-2bed77c3f719")
 	)
 	(wire
 		(pts
@@ -662,6 +700,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 77.47) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a4a42f-252e-45c4-a4f2-a5ab098f926e")
+	)
+	(wire
+		(pts
 			(xy 91.44 -1.27) (xy 91.44 17.78)
 		)
 		(stroke
@@ -742,6 +790,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 20.32) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6f87e4-5323-49bd-b477-8e0c24940f34")
+	)
+	(wire
+		(pts
 			(xy 118.11 1.27) (xy 135.89 1.27)
 		)
 		(stroke
@@ -779,6 +837,16 @@
 			(type default)
 		)
 		(uuid "c200fa93-9403-4675-871b-eefeca48eaba")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 91.44 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a8ed93-4029-4886-a7ca-3a24dcc567a4")
 	)
 	(wire
 		(pts
@@ -829,6 +897,16 @@
 			(type default)
 		)
 		(uuid "d9a5ab51-33b6-4cc8-95a1-b04bbcb46b73")
+	)
+	(wire
+		(pts
+			(xy 135.89 17.78) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15831a6-3df2-48c2-b47e-ed134ffe6d15")
 	)
 	(wire
 		(pts
@@ -1338,7 +1416,7 @@
 	)
 	(sheet
 		(at 13.335 60.96)
-		(size 26.67 36.83)
+		(size 26.035 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1353,7 +1431,7 @@
 		)
 		(uuid "180ab2c6-997f-4c3b-b693-7bfb58c46537")
 		(property "Sheetname" "PORTS"
-			(at 12.6234 97.79 90)
+			(at 13.335 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,7 +1440,7 @@
 			)
 		)
 		(property "Sheetfile" "PORTS.kicad_sch"
-			(at 40.5896 97.79 90)
+			(at 13.335 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,6 +1481,36 @@
 		(pin "N_FUSED" output
 			(at 24.13 60.96 90)
 			(uuid "3d861e5d-24a9-4854-9a3a-49f58153969e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_26" input
+			(at 39.37 73.66 0)
+			(uuid "913c0e55-7b0a-4421-bb4e-9f674945ab4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_27" input
+			(at 39.37 77.47 0)
+			(uuid "fbfd4227-fc1d-4f28-a375-3587b4251ad4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_28" input
+			(at 39.37 82.55 0)
+			(uuid "eb2ef7b3-69f2-4f7b-be35-596763747fce")
 			(effects
 				(font
 					(size 1.27 1.27)
