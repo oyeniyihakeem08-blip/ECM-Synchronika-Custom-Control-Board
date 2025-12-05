@@ -2350,6 +2350,10 @@
 		(uuid "28c03ac2-5c0b-4580-b709-bf9b87b515e4")
 	)
 	(no_connect
+		(at 173.99 86.36)
+		(uuid "88dcfa2c-c870-484c-a1ad-5db6a3bf7e06")
+	)
+	(no_connect
 		(at 166.37 58.42)
 		(uuid "8b2eb414-0853-4ad4-ad8e-771e094e5c73")
 	)
@@ -3322,19 +3326,6 @@
 			(justify left)
 		)
 		(uuid "5f7e2d00-370f-473d-8b2b-53fecb5590ee")
-	)
-	(hierarchical_label "GPIO_20"
-		(shape output)
-		(at 173.99 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "66e94a0d-95b3-4ba2-b797-061b805bfc47")
 	)
 	(hierarchical_label "GPIO_2"
 		(shape input)

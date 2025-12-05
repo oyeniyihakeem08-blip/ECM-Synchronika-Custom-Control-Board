@@ -850,16 +850,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 30.48) (xy 96.52 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca438b50-b47d-4b75-bf4c-d8f51ecab66b")
-	)
-	(wire
-		(pts
 			(xy 133.35 24.13) (xy 133.35 22.86)
 		)
 		(stroke
@@ -1376,16 +1366,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_20" output
-			(at 82.55 30.48 0)
-			(uuid "93c871b4-53c8-4d30-a4cc-b0224464cb3a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "L_FUSED" output
 			(at 53.34 33.02 180)
 			(uuid "5ffb8620-f3a3-4e4b-bb1d-257ee6632c12")
@@ -1891,16 +1871,6 @@
 		(pin "GPIO_12" output
 			(at 96.52 35.56 180)
 			(uuid "a00bb796-954a-4437-b4bf-6f5ce4d761bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_20" output
-			(at 96.52 30.48 180)
-			(uuid "b84a4168-c26e-4c99-b1ff-81abb90852af")
 			(effects
 				(font
 					(size 1.27 1.27)

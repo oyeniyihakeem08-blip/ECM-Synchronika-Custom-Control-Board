@@ -1923,13 +1923,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 38.1) (xy 71.12 38.1)
+			(xy 25.4 55.88) (xy 25.4 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08828427-7f28-48fd-a783-9f87cb421309")
+		(uuid "025aacf7-6f14-4396-8d76-1388903e711f")
+	)
+	(wire
+		(pts
+			(xy 38.1 38.1) (xy 71.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0836ab30-1735-4064-b35c-6f9a86705269")
 	)
 	(wire
 		(pts
@@ -1943,13 +1953,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 54.61) (xy 39.37 54.61)
+			(xy 26.67 40.64) (xy 26.67 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2228093c-8308-4aa2-993f-f11844358c98")
+		(uuid "0feb9966-ef80-47bc-aa40-ea1e8a581ddf")
+	)
+	(wire
+		(pts
+			(xy 36.83 43.18) (xy 36.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddd42cf-08f9-4298-a223-689af46777a7")
 	)
 	(wire
 		(pts
@@ -1983,13 +2003,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 54.61) (xy 39.37 62.23)
+			(xy 11.43 39.37) (xy 11.43 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41a8ec63-53b6-4b8e-b66a-aeaedff7c11d")
+		(uuid "3c37c2f2-b4a0-4311-9e37-c032d95ce065")
 	)
 	(wire
 		(pts
@@ -2013,6 +2033,26 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 43.18) (xy 72.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5daa04cd-e474-439d-a937-ecd506bbaefa")
+	)
+	(wire
+		(pts
+			(xy 72.39 44.45) (xy 71.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed3d057-643e-444c-84dc-e364ecd9e81f")
+	)
+	(wire
+		(pts
 			(xy 125.73 45.72) (xy 125.73 44.45)
 		)
 		(stroke
@@ -2033,6 +2073,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 40.64) (xy 26.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6217965d-2eb6-4e71-ba08-d52e171ec72d")
+	)
+	(wire
+		(pts
 			(xy 148.59 44.45) (xy 151.13 44.45)
 		)
 		(stroke
@@ -2043,6 +2093,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 55.88) (xy 25.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da56cb6-11e4-427b-a3e4-a28e4bb8dbcd")
+	)
+	(wire
+		(pts
 			(xy 151.13 38.1) (xy 151.13 39.37)
 		)
 		(stroke
@@ -2050,6 +2110,36 @@
 			(type default)
 		)
 		(uuid "6fcffd50-e386-45de-8ba7-2701ea699720")
+	)
+	(wire
+		(pts
+			(xy 11.43 39.37) (xy 26.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7155037e-db21-42cc-bcd4-2b25247dc9bd")
+	)
+	(wire
+		(pts
+			(xy 36.83 40.64) (xy 36.83 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746815d0-5625-419d-8da4-bde31c0ee7f9")
+	)
+	(wire
+		(pts
+			(xy 36.83 33.02) (xy 38.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e7b1c9c-87b3-4e68-ac68-92f5f39193a2")
 	)
 	(wire
 		(pts
@@ -2073,13 +2163,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 45.72) (xy 71.12 45.72)
+			(xy 72.39 43.18) (xy 72.39 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa98e8ea-98d9-4134-bd9d-f29a9fbaf358")
+		(uuid "aabb6cb0-506c-4275-bfa0-99584a6ca4b4")
 	)
 	(wire
 		(pts
@@ -2120,6 +2210,16 @@
 			(type default)
 		)
 		(uuid "c4ff7c2e-5e95-4ea6-8687-54d3772f2cc2")
+	)
+	(wire
+		(pts
+			(xy 36.83 41.91) (xy 22.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfde42b5-f51d-458c-9441-ce6de130855e")
 	)
 	(wire
 		(pts
@@ -2173,6 +2273,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 44.45) (xy 71.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e8b9be-6173-48c7-b751-2dda912cbcfc")
+	)
+	(wire
+		(pts
 			(xy 85.09 38.1) (xy 109.22 38.1)
 		)
 		(stroke
@@ -2180,6 +2290,16 @@
 			(type default)
 		)
 		(uuid "f0140535-2c7f-4a96-8c5c-23f97a4809da")
+	)
+	(wire
+		(pts
+			(xy 38.1 33.02) (xy 38.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16405be-9745-4f4c-94d1-596b0e1eb9a9")
 	)
 	(wire
 		(pts
@@ -2203,6 +2323,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 41.91) (xy 22.86 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfe5402-d16e-4843-96c6-bfcca7f3a463")
+	)
+	(wire
+		(pts
 			(xy 194.31 39.37) (xy 207.01 39.37)
 		)
 		(stroke
@@ -2221,16 +2351,6 @@
 		)
 		(uuid "0c9019f4-114d-4380-849c-0108cf64cd8d")
 	)
-	(label "LIVE"
-		(at 48.26 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78083924-8a7e-40fa-aecf-1bf7d4241375")
-	)
 	(label "L_FUSED"
 		(at 100.33 38.1 0)
 		(effects
@@ -2240,6 +2360,54 @@
 			(justify left bottom)
 		)
 		(uuid "e45c9a00-a019-4038-b478-b0f217ce2030")
+	)
+	(global_label "LED_LOAD"
+		(shape input)
+		(at 49.53 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "35d51822-dfcc-47f8-b975-5ca85d0e00ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.1231 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PUMP_LOAD"
+		(shape input)
+		(at 39.37 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "64d9863d-f03e-4983-87c8-a3976130a001")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.8379 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "+5v"
 		(shape output)
@@ -2254,6 +2422,30 @@
 		(uuid "6e952cf0-6c5f-400d-a130-7b582e8e9226")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.7447 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3_WAY_VALVE_LOAD"
+		(shape input)
+		(at 36.83 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e21b1531-baf5-47c5-b437-25b76a960914")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.1922 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,31 +2666,34 @@
 	)
 	(symbol
 		(lib_id "6.3mm spade:928814-1")
-		(at 27.94 54.61 180)
+		(at 39.37 93.98 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "40b71f2d-5278-45b5-a96f-6802c6dc2354")
-		(property "Reference" "J6"
-			(at 27.94 62.23 0)
+		(uuid "2d629d0c-941c-4c59-a265-aba2089a6c2c")
+		(property "Reference" "J206"
+			(at 35.56 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "928814-1"
-			(at 27.94 59.69 0)
+			(at 35.56 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "6.3mm spade:TE_928814-1"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2721,7 @@
 			)
 		)
 		(property "Comment" "928814-1"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2731,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2741,7 @@
 			)
 		)
 		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2751,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2761,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2576,7 +2771,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2781,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2791,7 @@
 			)
 		)
 		(property "PARTREV" "3-11"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2801,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2811,7 @@
 			)
 		)
 		(property "MP" "928814-1"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2821,7 @@
 			)
 		)
 		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2636,7 +2831,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2841,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 27.94 54.61 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,12 +2851,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b0237e0-50f5-4357-aee2-5dceba6f5d4f")
+			(uuid "66036af6-2acc-4cd8-820a-21b4c6c680f6")
 		)
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
-					(reference "J6")
+					(reference "J206")
 					(unit 1)
 				)
 			)
@@ -2669,32 +2864,33 @@
 	)
 	(symbol
 		(lib_id "6.3mm spade:928814-1")
-		(at 38.1 45.72 0)
-		(mirror y)
+		(at 22.86 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4daadb3f-1431-4e05-bd8d-6c3dd261a6c8")
-		(property "Reference" "J1"
-			(at 37.084 45.212 0)
+		(uuid "52271e1d-dee0-45cc-a81c-2fb6cf001a0d")
+		(property "Reference" "J203"
+			(at 19.05 52.0701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "928814-1"
-			(at 29.972 45.72 0)
+			(at 19.05 49.5301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "6.3mm spade:TE_928814-1"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2918,7 @@
 			)
 		)
 		(property "Comment" "928814-1"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2928,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +2938,7 @@
 			)
 		)
 		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2948,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2958,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2968,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +2978,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +2988,7 @@
 			)
 		)
 		(property "PARTREV" "3-11"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +2998,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +3008,7 @@
 			)
 		)
 		(property "MP" "928814-1"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +3018,7 @@
 			)
 		)
 		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +3028,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +3038,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 38.1 45.72 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,12 +3048,210 @@
 			)
 		)
 		(pin "1"
-			(uuid "423aa618-3979-448c-837f-d7a09e748623")
+			(uuid "b33b61ca-9910-495e-adde-82b00ee228ad")
 		)
 		(instances
-			(project ""
+			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
-					(reference "J1")
+					(reference "J203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6.3mm spade:928814-1")
+		(at 49.53 67.31 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a1da8ae-48d3-4fcb-8a91-e6129c3cf114")
+		(property "Reference" "J202"
+			(at 48.2599 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "928814-1"
+			(at 50.7999 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "6.3mm spade:TE_928814-1"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "928814-1"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3-11"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "928814-1"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7a2e03e-cace-43d4-b56e-18f708272570")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -2993,6 +3387,204 @@
 			(project ""
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6.3mm spade:928814-1")
+		(at 31.75 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb14a055-ec55-4fb9-a398-ca36e153f70c")
+		(property "Reference" "J201"
+			(at 27.94 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "928814-1"
+			(at 27.94 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "6.3mm spade:TE_928814-1"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "928814-1"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3-11"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "928814-1"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b30bbc4b-af1d-453c-9b53-09c4eec132d4")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -3144,8 +3736,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth_Protective")
-		(at 39.37 62.23 0)
-		(mirror y)
+		(at 11.43 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3153,7 +3744,7 @@
 		(dnp no)
 		(uuid "cef21615-91d3-492a-a29a-c6b05d1c58b7")
 		(property "Reference" "#PWR01"
-			(at 39.37 72.39 0)
+			(at 1.27 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3753,7 @@
 			)
 		)
 		(property "Value" "Earth_Protective"
-			(at 39.37 71.12 0)
+			(at 2.54 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 64.77 0)
+			(at 8.89 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 64.77 0)
+			(at 8.89 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3779,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-			(at 39.37 62.23 0)
+			(at 11.43 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,6 +3794,203 @@
 			(project ""
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6.3mm spade:928814-1")
+		(at 25.4 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9cce3d2-e95e-426c-a5bf-902902611f25")
+		(property "Reference" "J204"
+			(at 21.59 64.7701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "928814-1"
+			(at 21.59 62.2301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "6.3mm spade:TE_928814-1"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "928814-1"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3-11"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "928814-1"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9fcc419-fce1-420a-851d-f1b2f002943e")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
+					(reference "J204")
 					(unit 1)
 				)
 			)
@@ -3273,6 +4061,204 @@
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "6.3mm spade:928814-1")
+		(at 41.91 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0a04d65-3261-4fe2-8f2b-c4173677610e")
+		(property "Reference" "J209"
+			(at 45.72 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "928814-1"
+			(at 45.72 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "6.3mm spade:TE_928814-1"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "928814-1"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3-11"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "928814-1"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb2354f5-15ec-4ed6-8fb1-2ae960c17b52")
+		)
+		(instances
+			(project "ECM Synchronika Custom Control Board"
+				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
+					(reference "J209")
 					(unit 1)
 				)
 			)
@@ -3532,202 +4518,6 @@
 			(project ""
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
 					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "6.3mm spade:928814-1")
-		(at 38.1 38.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f06ff90b-8ca0-4a2a-a80c-c9b4dd6dbe8d")
-		(property "Reference" "J7"
-			(at 27.432 40.386 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "928814-1"
-			(at 29.972 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "928814-1"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3-11"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "928814-1"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8f118c4-d905-4bbd-ad70-3fd63217b92b")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/e1f8f573-d884-4909-8ded-c236ff34aedd"
-					(reference "J7")
 					(unit 1)
 				)
 			)

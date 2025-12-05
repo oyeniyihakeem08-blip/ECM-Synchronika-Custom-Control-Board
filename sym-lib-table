@@ -10,4 +10,6 @@
   (lib (name "HLMK_5M05")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/HLK-5M05.kicad_sym")(options "")(descr ""))
   (lib (name "TACTILE SWITCH")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/SMD SWITCH  EVQ-P7A01P.kicad_sym")(options "")(descr ""))
   (lib (name "11 PIN")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/11 pin screw 1725740.kicad_sym")(options "")(descr ""))
+  (lib (name "9 pos")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/9 pos terminal block .kicad_sym")(options "")(descr ""))
+  (lib (name "7 pos")(type "KiCad")(uri "${KIPRJMOD}/SYMBOL/7 pos termminal block.kicad_sym")(options "")(descr ""))
 )

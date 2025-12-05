@@ -5,465 +5,6 @@
 	(uuid "12116f64-3c3b-4611-a1d5-2cca87a3b504")
 	(paper "A4")
 	(lib_symbols
-		(symbol "6.3mm spade:928814-1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -4.8364 3.323 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "928814-1"
-				(at -5.0892 -5.0986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "928814-1:TE_928814-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Comment" "928814-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "TE Connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "3-11"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "928814-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "TE Connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "928814-1_0_0"
-				(rectangle
-					(start -2.54 -2.54)
-					(end 2.54 2.54)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Screw_Terminal_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1718,18 +1259,6 @@
 		)
 	)
 	(rectangle
-		(start 116.84 107.315)
-		(end 210.185 183.515)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 20a1164f-ec52-4d7d-a4ba-7ea01a6f79f6)
-	)
-	(rectangle
 		(start 114.3 21.59)
 		(end 148.59 97.155)
 		(stroke
@@ -1788,18 +1317,6 @@
 			(type none)
 		)
 		(uuid e1663108-8d33-4715-92f6-3e25325d6ba0)
-	)
-	(text "K4 SPARE"
-		(exclude_from_sim no)
-		(at 155.448 111.76 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "0d078bb8-f86c-493f-af9a-6a67bf1b4c51")
 	)
 	(text "K1 LED"
 		(exclude_from_sim no)
@@ -1892,30 +1409,6 @@
 		(uuid "3402742c-3fef-43d5-8d93-8002715a7072")
 	)
 	(junction
-		(at 34.29 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3781f093-ea78-421e-ae05-c2132fc26410")
-	)
-	(junction
-		(at 180.34 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54a93a42-f3de-4094-b2c6-8161809449fa")
-	)
-	(junction
-		(at 180.34 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e4b1eb1-9c5c-4fd5-b012-d0d49eb1b95c")
-	)
-	(junction
-		(at 170.18 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6365d692-8a71-4058-afab-96ec65679115")
-	)
-	(junction
 		(at 66.04 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1928,12 +1421,6 @@
 		(uuid "812be6e9-c51b-4d50-9647-7139ec57b279")
 	)
 	(junction
-		(at 180.34 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "881ba06b-a824-4e6f-86b5-81394cf2fad1")
-	)
-	(junction
 		(at 224.79 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1944,12 +1431,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96f43074-02ad-4ce4-aef5-bebc3a9bda44")
-	)
-	(junction
-		(at 35.56 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c43543d-fadb-477e-98f1-41ac7f17f04e")
 	)
 	(junction
 		(at 76.2 154.94)
@@ -1970,28 +1451,10 @@
 		(uuid "adb5880d-628b-4431-a1d0-49bbd68d44f0")
 	)
 	(junction
-		(at 38.1 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b14c2cbb-5740-4d0a-ac53-6704a1a3ab6e")
-	)
-	(junction
 		(at 224.79 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb19f3df-8f80-49fb-b114-efda2df8a46e")
-	)
-	(junction
-		(at 29.21 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfe3ea64-5934-44ec-aa69-94ece2c67ecd")
-	)
-	(junction
-		(at 157.48 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d312a0cf-3796-4862-b8d8-051817dd6011")
 	)
 	(junction
 		(at 55.88 125.73)
@@ -2000,22 +1463,10 @@
 		(uuid "e5589412-4573-4fb5-b460-7ef63e2bdd51")
 	)
 	(junction
-		(at 160.02 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f96b9a2d-4e18-4ea7-bf74-12b7fd58acb2")
-	)
-	(junction
 		(at 76.2 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb164a11-4a1c-4cb4-8bd3-25a01ee51520")
-	)
-	(junction
-		(at 180.34 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe8011e8-4cc9-48bb-b753-b232829ad102")
 	)
 	(no_connect
 		(at 48.26 44.45)
@@ -2041,16 +1492,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 49.53) (xy 191.77 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03882f6d-3254-4d03-8479-5f4276487db4")
-	)
-	(wire
-		(pts
 			(xy 76.2 154.94) (xy 76.2 148.59)
 		)
 		(stroke
@@ -2058,16 +1499,6 @@
 			(type default)
 		)
 		(uuid "03cceb9c-7470-42ef-a52e-46eb1dd16b8f")
-	)
-	(wire
-		(pts
-			(xy 22.86 60.96) (xy 29.21 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "046744f2-dce7-47b9-a6d9-3dd9fc74823c")
 	)
 	(wire
 		(pts
@@ -2088,26 +1519,6 @@
 			(type default)
 		)
 		(uuid "05bc05b7-dbc9-4ec6-af43-3c5536f16146")
-	)
-	(wire
-		(pts
-			(xy 20.32 44.45) (xy 35.56 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ecd88e2-f968-406c-b463-6464607eb3b2")
-	)
-	(wire
-		(pts
-			(xy 160.02 125.73) (xy 160.02 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f1c05b2-c6dc-4667-8f1c-762920ce4a90")
 	)
 	(wire
 		(pts
@@ -2161,7 +1572,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 147.32) (xy 45.72 147.32)
+			(xy 22.86 147.32) (xy 45.72 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2181,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 64.77) (xy 180.34 64.77)
+			(xy 166.37 64.77) (xy 194.31 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2221,16 +1632,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 162.56) (xy 157.48 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa95432-5928-490f-bb7d-8be86a7b320e")
-	)
-	(wire
-		(pts
 			(xy 66.04 81.28) (xy 66.04 90.17)
 		)
 		(stroke
@@ -2238,16 +1639,6 @@
 			(type default)
 		)
 		(uuid "2e138ab0-a0a2-4190-b546-3432736e2682")
-	)
-	(wire
-		(pts
-			(xy 180.34 154.94) (xy 198.12 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e75b882-d141-4b5e-b1d8-f984f1042a96")
 	)
 	(wire
 		(pts
@@ -2278,26 +1669,6 @@
 			(type default)
 		)
 		(uuid "36e18a03-dcc9-4838-bd81-06272513c9ee")
-	)
-	(wire
-		(pts
-			(xy 158.75 121.92) (xy 158.75 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3727a9ec-156d-4127-b6d9-e7d9f36b20d2")
-	)
-	(wire
-		(pts
-			(xy 129.54 120.65) (xy 147.32 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "382ec73f-6844-47f5-99bb-190118b06dee")
 	)
 	(wire
 		(pts
@@ -2351,16 +1722,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 154.94) (xy 180.34 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43bf54f5-9cee-4ad7-b2cb-0ceb69f634be")
-	)
-	(wire
-		(pts
 			(xy 242.57 71.12) (xy 242.57 60.96)
 		)
 		(stroke
@@ -2381,16 +1742,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 154.94) (xy 170.18 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48350663-c5fb-4519-8640-8d1d54ee5539")
-	)
-	(wire
-		(pts
 			(xy 242.57 38.1) (xy 224.79 38.1)
 		)
 		(stroke
@@ -2398,16 +1749,6 @@
 			(type default)
 		)
 		(uuid "4913cba7-4a10-45c9-abcb-ce50a327ca57")
-	)
-	(wire
-		(pts
-			(xy 160.02 146.05) (xy 160.02 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dfe6416-ee6e-4924-8689-56e9b1160674")
 	)
 	(wire
 		(pts
@@ -2441,26 +1782,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 120.65) (xy 147.32 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5182361b-bb93-4c2a-8f95-b99cb3760e85")
-	)
-	(wire
-		(pts
-			(xy 157.48 173.99) (xy 157.48 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5189ead6-16f1-4281-bee1-3900f2de2a65")
-	)
-	(wire
-		(pts
 			(xy 267.97 67.31) (xy 267.97 71.12)
 		)
 		(stroke
@@ -2478,16 +1799,6 @@
 			(type default)
 		)
 		(uuid "53165be8-e09f-4cd1-bf24-73b5593e3507")
-	)
-	(wire
-		(pts
-			(xy 198.12 152.4) (xy 198.12 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5373084f-f62a-464f-bd7b-8c70dafb308e")
 	)
 	(wire
 		(pts
@@ -2511,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 44.45) (xy 43.18 44.45)
+			(xy 20.32 44.45) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2561,17 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 123.19) (xy 129.54 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75df54bc-3408-4c6a-9461-8d1fef6d8a4e")
-	)
-	(wire
-		(pts
-			(xy 29.21 60.96) (xy 45.72 60.96)
+			(xy 22.86 60.96) (xy 45.72 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2691,16 +1992,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 115.57) (xy 152.4 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918ab2d5-8e9e-4859-8327-4938cb38e127")
-	)
-	(wire
-		(pts
 			(xy 55.88 59.69) (xy 55.88 68.58)
 		)
 		(stroke
@@ -2708,16 +1999,6 @@
 			(type default)
 		)
 		(uuid "92c4ec42-0a4d-4774-b7f1-f4dd8573b1ff")
-	)
-	(wire
-		(pts
-			(xy 198.12 125.73) (xy 198.12 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93d07562-af50-40be-9bfa-87d1c5cf2f14")
 	)
 	(wire
 		(pts
@@ -2741,46 +2022,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 140.97) (xy 198.12 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e73e5cd-65fc-4b4c-8981-1e629acd3e36")
-	)
-	(wire
-		(pts
-			(xy 152.4 115.57) (xy 152.4 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec088d7-7ac7-4c67-b9dd-67bde039c640")
-	)
-	(wire
-		(pts
-			(xy 129.54 118.11) (xy 134.62 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c327c9-b7d0-404c-bfa2-36e7ac79d7bb")
-	)
-	(wire
-		(pts
-			(xy 157.48 162.56) (xy 157.48 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0ed78b4-d3cf-4170-b906-2f48c50abe04")
-	)
-	(wire
-		(pts
 			(xy 55.88 39.37) (xy 54.61 39.37)
 		)
 		(stroke
@@ -2791,16 +2032,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 162.56) (xy 162.56 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2a464a3-261d-45f5-beba-534f46462c0c")
-	)
-	(wire
-		(pts
 			(xy 53.34 162.56) (xy 53.34 166.37)
 		)
 		(stroke
@@ -2808,16 +2039,6 @@
 			(type default)
 		)
 		(uuid "a71cfaea-5ee0-456f-8853-d300b13f6400")
-	)
-	(wire
-		(pts
-			(xy 180.34 125.73) (xy 180.34 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ae2ea4-6689-4b4d-ab77-d9f31d3f56cd")
 	)
 	(wire
 		(pts
@@ -2861,16 +2082,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 147.32) (xy 38.1 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7cc751d-108f-46c4-9412-0b29e1147c03")
-	)
-	(wire
-		(pts
 			(xy 76.2 125.73) (xy 76.2 140.97)
 		)
 		(stroke
@@ -2881,23 +2092,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 130.81) (xy 34.29 130.81)
+			(xy 20.32 130.81) (xy 43.18 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bcf46359-bddb-444e-857a-61542ebd9f65")
-	)
-	(wire
-		(pts
-			(xy 170.18 154.94) (xy 170.18 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1620a81-22ee-42bd-8082-f660502d3e9f")
 	)
 	(wire
 		(pts
@@ -2931,16 +2132,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 147.32) (xy 149.86 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cca33680-13eb-4fec-9cd6-09307aaa40dd")
-	)
-	(wire
-		(pts
 			(xy 55.88 125.73) (xy 54.61 125.73)
 		)
 		(stroke
@@ -2951,63 +2142,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 154.94) (xy 180.34 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4097276-992d-426b-87d7-84517713b353")
-	)
-	(wire
-		(pts
-			(xy 134.62 118.11) (xy 134.62 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a2735f-6f03-4ef1-b525-6608fef8cb93")
-	)
-	(wire
-		(pts
-			(xy 160.02 125.73) (xy 180.34 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7031d06-81cf-4c0c-8928-5378fe89c337")
-	)
-	(wire
-		(pts
-			(xy 129.54 147.32) (xy 149.86 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a87a7d-2d3f-413f-ad72-67c4d0f271f4")
-	)
-	(wire
-		(pts
-			(xy 157.48 49.53) (xy 180.34 49.53)
+			(xy 157.48 49.53) (xy 191.77 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d82065ff-5d56-4767-a1aa-c53aa6ba4344")
-	)
-	(wire
-		(pts
-			(xy 180.34 64.77) (xy 194.31 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd0973ff-d927-4755-b73f-8d0d87431784")
 	)
 	(wire
 		(pts
@@ -3028,46 +2169,6 @@
 			(type default)
 		)
 		(uuid "df9f43cd-deec-4ce0-a6ef-d0a6e1a6c221")
-	)
-	(wire
-		(pts
-			(xy 180.34 125.73) (xy 198.12 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfba9f3d-55a9-4362-8a74-e09493d64b2b")
-	)
-	(wire
-		(pts
-			(xy 34.29 130.81) (xy 43.18 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5c060fa-f59e-4eb3-a1a2-36b01a411ace")
-	)
-	(wire
-		(pts
-			(xy 160.02 125.73) (xy 158.75 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea3851d0-c5ae-4a2d-9c66-08e9b526e8b7")
-	)
-	(wire
-		(pts
-			(xy 180.34 69.85) (xy 180.34 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec151946-9283-47b2-9006-6c3d53aff999")
 	)
 	(wire
 		(pts
@@ -3101,16 +2202,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 147.32) (xy 38.1 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3684888-eaf6-410b-a9a6-9714ae2bbe7d")
-	)
-	(wire
-		(pts
 			(xy 48.26 162.56) (xy 53.34 162.56)
 		)
 		(stroke
@@ -3119,38 +2210,8 @@
 		)
 		(uuid "f36c1687-1506-4870-8ed4-77c8e94cf4bc")
 	)
-	(wire
-		(pts
-			(xy 134.62 162.56) (xy 144.78 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3aed215-c664-4360-a4bc-f2f06fa0f7e8")
-	)
-	(wire
-		(pts
-			(xy 29.21 60.96) (xy 29.21 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6ba13d8-0008-42a5-aeb1-504fbd82a091")
-	)
-	(wire
-		(pts
-			(xy 170.18 167.64) (xy 170.18 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8fb0ff1-b0d9-4860-8cda-49f6a8ea1e6b")
-	)
-	(label "3_WAY_VALVE_LOAD"
-		(at 157.48 49.53 0)
+	(label "L_FUSED"
+		(at 29.21 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3159,7 +2220,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "026aad1c-3b7f-4493-b310-9c71d492073f")
+		(uuid "3091e79a-6c8c-4416-85a6-3375ef2127ba")
 	)
 	(label "L_FUSED"
 		(at 22.86 147.32 0)
@@ -3172,42 +2233,6 @@
 			(justify left bottom)
 		)
 		(uuid "59d122f3-b9d8-49cc-87e0-1d626f3219a8")
-	)
-	(label "LED_LOAD"
-		(at 20.32 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5dcde2f5-b42e-407f-863b-3941cd28a87f")
-	)
-	(label "PUMP_LOAD"
-		(at 130.81 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "692ab791-618a-4175-8ed6-3ec8597b01fc")
-	)
-	(label "3_WAY_VALVE_LOAD"
-		(at 267.97 45.72 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c084d3c-4355-4051-a151-634cd6687121")
 	)
 	(label "L_FUSED"
 		(at 267.97 71.12 270)
@@ -3233,30 +2258,6 @@
 		)
 		(uuid "8417b199-7166-4945-901f-e1ec3ae791c0")
 	)
-	(label "SPARE_LOAD"
-		(at 135.89 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4db889c-8f0a-4f9b-91c0-5546d9143f0e")
-	)
-	(label "PUMP_LOAD"
-		(at 20.32 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a71f2dc2-ccc9-4348-9b3a-24be7f3ed42d")
-	)
 	(label "L_FUSED"
 		(at 166.37 64.77 0)
 		(effects
@@ -3269,9 +2270,9 @@
 		)
 		(uuid "ee228e6a-2ead-45ac-b287-488b5b9e1584")
 	)
-	(global_label "+5v"
-		(shape output)
-		(at 158.75 121.92 90)
+	(global_label "3_WAY_VALVE_LOAD"
+		(shape input)
+		(at 157.48 49.53 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3281,14 +2282,38 @@
 			)
 			(justify left)
 		)
-		(uuid "06d7639d-e414-4772-b84f-7090b6530494")
+		(uuid "53cba084-3d60-47fe-87d1-dad46ea48e9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 114.7093 90)
+			(at 157.48 28.1678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PUMP_LOAD"
+		(shape input)
+		(at 20.32 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "641fea09-3ae4-4f98-80f6-fc537b7cbe88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 5.8521 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3308,6 +2333,54 @@
 		(uuid "78e10570-c240-4b5a-b652-116461333e9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.61 114.7093 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_LOAD"
+		(shape input)
+		(at 20.32 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "9587a5b3-01cf-4782-8c99-0f8e905fcc9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 7.7269 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3_WAY_VALVE_LOAD"
+		(shape input)
+		(at 267.97 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d5d6254d-2881-48d4-8f22-c1bd3cb5773f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.97 24.3578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,6 +2438,30 @@
 			)
 		)
 	)
+	(global_label "PUMP_LOAD"
+		(shape input)
+		(at 130.81 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e79d91b5-e76e-443a-8f4e-25e65919ddc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 27.4421 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "GPIO_12"
 		(shape output)
 		(at 30.48 162.56 180)
@@ -3377,19 +2474,6 @@
 			(justify right)
 		)
 		(uuid "3d18ae53-d0f1-477d-8411-ea84b5eb5e5f")
-	)
-	(hierarchical_label "GPIO_20"
-		(shape output)
-		(at 134.62 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "5f11ec2e-3189-4e09-8dda-41a6a3d14897")
 	)
 	(hierarchical_label "GPIO_11"
 		(shape output)
@@ -3429,202 +2513,6 @@
 			(justify right)
 		)
 		(uuid "ccc5336b-a6a2-479c-9471-1e9758d07940")
-	)
-	(symbol
-		(lib_id "6.3mm spade:928814-1")
-		(at 33.02 152.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09c3ce3d-89ce-44c0-b524-59569f972a73")
-		(property "Reference" "J14"
-			(at 32.004 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "928814-1"
-			(at 24.892 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "928814-1"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3-11"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "928814-1"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c118b5e-0ff2-48ca-85cf-a83ec45055d2")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3755,85 +2643,6 @@
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 198.12 148.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2825b05b-dbe1-414f-9abc-620a389d1233")
-		(property "Reference" "D6"
-			(at 200.66 145.7324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED"
-			(at 200.66 148.2724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 198.12 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 198.12 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a345d4e-f43f-4105-a3f1-1b0c23cf394c")
-		)
-		(pin "1"
-			(uuid "ab71ec0f-5432-406b-92c9-5b8fd9f76a69")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4410,76 +3219,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 157.48 170.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c03cf3b-6547-4e4c-bd40-f5d72feb72fe")
-		(property "Reference" "R9"
-			(at 154.94 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470"
-			(at 154.94 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 159.258 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 157.48 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4a7688c-6c47-414d-877e-91fc2ba52679")
-		)
-		(pin "1"
-			(uuid "9eae2ac6-203c-4b88-9e69-a6e9e4b8cd0d")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 185.42 90.17 0)
 		(unit 1)
@@ -4540,86 +3279,6 @@
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:G2RL-1-H")
-		(at 154.94 138.43 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cb99c77-f586-474f-ad3c-48b47f6cb66c")
-		(property "Reference" "K3"
-			(at 143.51 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G2RL-1-H"
-			(at 143.51 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RELAY:Relay_SPDT_Omron_G2RL-1 MODIFIED"
-			(at 143.51 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
-			(at 154.94 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose Low Profile Relay SPDT Through Hole, Omron G2RL series, High Sensitivity, 10A 250VAC"
-			(at 154.94 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "0983ad2e-734f-4322-a77c-9c1c8ac23e16")
-		)
-		(pin "A1"
-			(uuid "d9597406-d111-4a48-aed3-6b56b35baaa6")
-		)
-		(pin "12"
-			(uuid "4cf65985-5000-4130-b2c3-facaea3467ae")
-		)
-		(pin "A2"
-			(uuid "37edcda0-31cd-4e4a-9819-6d2216c2a447")
-		)
-		(pin "11"
-			(uuid "378c6802-450b-4e18-a199-3a1d134878d0")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -4785,76 +3444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 124.46 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78f948e4-427c-4c91-95b1-36776fe29676")
-		(property "Reference" "J12"
-			(at 124.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 121.666 120.396 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-			(at 124.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 124.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24e148bf-93e9-456c-8633-dea282a5ef9c")
-		)
-		(pin "2"
-			(uuid "d591aa3f-2e7e-469e-ba87-e585340aa19f")
-		)
-		(pin "3"
-			(uuid "6b31cbdf-e383-4d45-b14c-6e4eb95ac3e0")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay:G2RL-1-H")
 		(at 50.8 138.43 0)
 		(mirror y)
@@ -4935,485 +3524,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 180.34 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "839e872c-ecc6-461d-b701-8e9aa9e28e34")
-		(property "Reference" "D5"
-			(at 182.88 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 182.88 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8f2391f-cad7-4e8c-b6f3-222882afa57c")
-		)
-		(pin "2"
-			(uuid "3630659d-a4dc-4a77-b19d-2c6d3b1bd666")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "6.3mm spade:928814-1")
-		(at 35.56 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84024d2a-fa25-4b3d-89ab-c5351c85538e")
-		(property "Reference" "J8"
-			(at 35.56 38.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "928814-1"
-			(at 35.56 31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "928814-1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3-11"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "928814-1"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 35.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4d3337b-77d7-4a72-a02e-ddfc30baa62b")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "6.3mm spade:928814-1")
-		(at 34.29 125.73 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a67473c-e71c-49cc-8c9a-c56108eba665")
-		(property "Reference" "J15"
-			(at 34.29 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "928814-1"
-			(at 34.29 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "928814-1"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3-11"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "928814-1"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98a67db7-c979-4f8f-946b-2256aadce349")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 185.42 86.36 0)
 		(unit 1)
@@ -5484,202 +3594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "6.3mm spade:928814-1")
-		(at 24.13 67.31 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96232e9a-8662-4725-959b-e986bc88fb9b")
-		(property "Reference" "J9"
-			(at 23.114 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "928814-1"
-			(at 16.002 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "928814-1"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3-11"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "928814-1"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 24.13 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b1ce826-245a-4366-85a1-1a9aa1bcba4f")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 130.81 50.8 0)
 		(unit 1)
@@ -5743,72 +3657,6 @@
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b5af725-083d-43ac-9a0f-5c058ecb6d1a")
-		(property "Reference" "#PWR08"
-			(at 170.18 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6473f1b-8dd4-4e90-981a-e5cda54f0f6e")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5962,76 +3810,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 198.12 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a663bf59-993b-49e5-b532-ce5c3d6d8371")
-		(property "Reference" "R12"
-			(at 200.66 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 200.66 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 196.342 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 198.12 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ceb08cb4-32ae-4c13-8d89-1d3adb0dcfed")
-		)
-		(pin "1"
-			(uuid "d962679b-0059-4a6a-8f2d-03846afe3578")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 53.34 83.82 0)
 		(mirror y)
 		(unit 1)
@@ -6095,72 +3873,6 @@
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1233d12-e20c-4625-bcd7-568d87f0882c")
-		(property "Reference" "#PWR07"
-			(at 157.48 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b0f89a1-5e4a-47cb-814a-32eb9d6f4231")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6386,82 +4098,6 @@
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 167.64 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d33de97b-c340-464a-9267-26d944f708a1")
-		(property "Reference" "Q3"
-			(at 172.72 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 172.72 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 172.72 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 167.64 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 167.64 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e73dab1b-307c-4031-a8a7-117bdc5e826a")
-		)
-		(pin "2"
-			(uuid "483b2ce5-607e-40bc-b2ca-929ec8e7eb79")
-		)
-		(pin "3"
-			(uuid "0fdd5a90-67ae-4e87-9b61-61e6d97a70ee")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6861,202 +4497,6 @@
 		)
 	)
 	(symbol
-		(lib_id "6.3mm spade:928814-1")
-		(at 185.42 69.85 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3ad7815-3813-4741-8960-cc15485bf7c4")
-		(property "Reference" "J11"
-			(at 186.436 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "928814-1"
-			(at 193.548 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "928814-1"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3-11"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "928814-1"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f085d61d-318f-4af5-9987-2bad293877c3")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 93.98 137.16 0)
 		(unit 1)
@@ -7266,269 +4706,6 @@
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fca06f28-1b9e-475d-8510-12a879c7625c")
-		(property "Reference" "R8"
-			(at 148.59 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 148.59 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 148.59 164.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61d2a736-0670-40f8-a889-60750dcaa975")
-		)
-		(pin "1"
-			(uuid "e453772a-9707-4b12-977d-17ac678fed7b")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "6.3mm spade:928814-1")
-		(at 180.34 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd0a7077-87d9-4ce8-93b0-ed3f4ac00e41")
-		(property "Reference" "J10"
-			(at 180.34 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "928814-1"
-			(at 180.34 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "6.3mm spade:TE_928814-1"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "928814-1"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "FASTON .250 Series , 90deg Mnt Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated | TE Connectivity 928814-1"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "3-11"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/928814-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "928814-1"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE Connectivity"
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca5b3f53-0a27-4671-b129-e2e89d0bfad7")
-		)
-		(instances
-			(project "ECM Synchronika Custom Control Board"
-				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/023e62d7-ac84-46e4-a627-6b28286ed469"
-					(reference "J10")
 					(unit 1)
 				)
 			)
