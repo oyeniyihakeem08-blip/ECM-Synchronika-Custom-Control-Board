@@ -3347,7 +3347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "370730d6-2717-4a57-ba12-8e65dcf72980")
-		(property "Reference" "ADC_REF"
+		(property "Reference" "ADC_REF801"
 			(at 46.99 177.0379 0)
 			(effects
 				(font
@@ -3398,7 +3398,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/180ab2c6-997f-4c3b-b693-7bfb58c46537"
-					(reference "ADC_REF")
+					(reference "ADC_REF801")
 					(unit 1)
 				)
 			)
@@ -3484,7 +3484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55b76c02-515a-41b6-85fa-9567182810f5")
-		(property "Reference" "5V"
+		(property "Reference" "5V801"
 			(at 83.82 177.0379 0)
 			(effects
 				(font
@@ -3535,7 +3535,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/180ab2c6-997f-4c3b-b693-7bfb58c46537"
-					(reference "5V")
+					(reference "5V801")
 					(unit 1)
 				)
 			)
@@ -3956,7 +3956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93593785-c686-4df3-b096-9eb7b72bf70d")
-		(property "Reference" "GND"
+		(property "Reference" "GND801"
 			(at 63.5 177.0379 0)
 			(effects
 				(font
@@ -4007,7 +4007,7 @@
 		(instances
 			(project "ECM Synchronika Custom Control Board"
 				(path "/0a1cfe74-4adf-4cda-8eff-54fb631bdb34/180ab2c6-997f-4c3b-b693-7bfb58c46537"
-					(reference "GND")
+					(reference "GND801")
 					(unit 1)
 				)
 			)
